@@ -3,10 +3,10 @@ image: gradle:allure
 
 default:
   tags:
-    -shelllocal
+    - shelllocal
 
 stages:
-  -test
+  - test
 
 Integration tests with Allure:
   stage: test
