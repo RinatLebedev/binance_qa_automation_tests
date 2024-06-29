@@ -3,6 +3,7 @@ package Api;
 import io.qameta.allure.Description;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
@@ -17,6 +18,7 @@ import static AutocompletesAndCheckers.SomeFunctions.apiTestingFunctions.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.notNullValue;
 
+@Tag("API")
 public class BinanceApiTests {
     private final String TEST_URL = "https://testnet.binance.vision";
     private final String URL = "https://api.binance.com";

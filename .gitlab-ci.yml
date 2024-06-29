@@ -1,0 +1,20 @@
+#Образ для gradle
+image: gradle:allure
+
+default:
+  tags:
+    -shelllocal
+
+stages:
+  -test
+
+Integration tests with Allure:
+  stage: test
+  script:
+    - ./gradlew clean test
+  after_script:
+    - ./gradlew allureReport
+  artifacts:
+    when: always
+    paths:
+      - build/reports/allure-report/allureReport/*

@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'io.qameta.allure' version '2.9.6'
+    id 'io.qameta.allure' version '2.11.2'
 }
 
 group 'org.example'
@@ -10,6 +10,7 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
     implementation 'org.testng:testng:7.1.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
@@ -18,7 +19,7 @@ dependencies {
     testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.18.1' //было 4.1.2
     testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.20.0' //был закрыт
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.3'
-    testImplementation group: 'com.codeborne', name: 'selenide', version: '7.0.6' //было 6.3.5
+    testImplementation group: 'com.codeborne', name: 'selenide', version: '7.3.2' //было 7.0.6
     testImplementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.6.4' //было 5.1.0
     //testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '4.18.1'
     testImplementation group: 'org.junit.platform', name: 'junit-platform-commons', version: '1.9.2'
@@ -38,6 +39,18 @@ dependencies {
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
     testImplementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.16.1'
     testImplementation group: 'io.github.binance', name: 'binance-connector-java', version: '3.2.0'
+}
+
+def apiTest = tasks.register("apiTests", Test) {
+    useJUnitPlatform {
+        includeTags "API"
+    }
+}
+
+def uiTest = tasks.register("uiTests", Test) {
+    useJUnitPlatform {
+        includeTags "UI"
+    }
 }
 
 test {

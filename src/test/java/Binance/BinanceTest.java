@@ -6,6 +6,7 @@ import PageObject.*;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
@@ -19,6 +20,7 @@ import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
+@Tag("UI")
 public class BinanceTest extends BaseTest {
 
     @Test
