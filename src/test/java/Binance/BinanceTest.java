@@ -61,6 +61,7 @@ public class BinanceTest extends BaseTest {
             expectedResult.add(4,"Капитализация");
             expectedResult.add(5,"Дата листинга");
             Assertions.assertTrue(textsArray1.equals(expectedResult));
+            int i = 0;
         });
         step("Записываем в файл 'testCase_2_output.txt' короткие названия криптовалют и их цену", () -> {
             ElementsCollection cryptoShortNamesCollection = MarketsPage.NEW_LISTINGS_CRYPTO_SHORT_NAME_COLLECTION.shouldBe(size(10));

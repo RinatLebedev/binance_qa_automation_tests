@@ -26,7 +26,7 @@ abstract public class BaseTest implements Variables{
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager"; //Должен ли драйвер подождать, пока страница полностью загрузится
-        Configuration.headless = false; //Отображется ли окно при прогонке теста(false). Безоконный режим - (true)
+        Configuration.headless = true; //Отображется ли окно при прогонке теста(false). Безоконный режим - (true)
         Configuration.baseUrl = "https://www.binance.com/ru";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
