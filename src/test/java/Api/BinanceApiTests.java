@@ -3,9 +3,9 @@ package Api;
 import io.qameta.allure.Description;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -70,9 +70,9 @@ public class BinanceApiTests {
         ArrayList <String> baseAssetActialResponse = jsonPath.get("symbols.baseAsset");
         ArrayList <String> quoteAssetActialResponse = jsonPath.get("symbols.quoteAsset");
 
-        Assert.assertEquals(symbolExpectedResponse, symbolActialResponse.get(0));
-        Assert.assertEquals(baseAssetExpectedResponse, baseAssetActialResponse.get(0));
-        Assert.assertEquals(quoteAssetExpectedResponse, quoteAssetActialResponse.get(0));
+        Assertions.assertEquals(symbolExpectedResponse, symbolActialResponse.get(0));
+        Assertions.assertEquals(baseAssetExpectedResponse, baseAssetActialResponse.get(0));
+        Assertions.assertEquals(quoteAssetExpectedResponse, quoteAssetActialResponse.get(0));
     }
 
     @Test
@@ -87,7 +87,7 @@ public class BinanceApiTests {
                 .extract().response();
         JsonPath jsonPath = response.jsonPath();
         Map<String, String> actialResponse = jsonPath.getMap("");
-        Assert.assertEquals("DOGEUSDT", actialResponse.get("symbol"));
+        Assertions.assertEquals("DOGEUSDT", actialResponse.get("symbol"));
     }
 
     @Test
@@ -105,7 +105,7 @@ public class BinanceApiTests {
         JsonPath jsonPath = response.jsonPath();
         Map<String, String> actialResponse = jsonPath.getMap("");
         System.out.println(actialResponse);
-        Assert.assertTrue(null !=actialResponse.get("price"));
+        Assertions.assertTrue(null !=actialResponse.get("price"));
     }
 
     @Test
@@ -135,7 +135,7 @@ public class BinanceApiTests {
             finalResponseall.add("Мин. цена " + (String) allResponse.get(i).get(3));
         }
         System.out.println(finalResponseall);
-        Assert.assertTrue(finalResponseall.size() == Integer.valueOf(limitParam)*3);
+        Assertions.assertTrue(finalResponseall.size() == Integer.valueOf(limitParam)*3);
     }
 
     @Test
@@ -180,11 +180,11 @@ public class BinanceApiTests {
         String orderID = newRespons.get("orderId");
         writeToTextFile("textFiles/orderIdtxt", orderID);
 
-        Assert.assertEquals("NEW", newRespons.get("status"));
-        Assert.assertEquals("BTCUSDT", newRespons.get("symbol"));
-        Assert.assertEquals("BUY", newRespons.get("side"));
-        Assert.assertEquals("0.00030000", newRespons.get("origQty"));
-        Assert.assertTrue(newRespons.get("orderId").length() == 11);
+        Assertions.assertEquals("NEW", newRespons.get("status"));
+        Assertions.assertEquals("BTCUSDT", newRespons.get("symbol"));
+        Assertions.assertEquals("BUY", newRespons.get("side"));
+        Assertions.assertEquals("0.00030000", newRespons.get("origQty"));
+        Assertions.assertTrue(newRespons.get("orderId").length() == 11);
     }
 
 

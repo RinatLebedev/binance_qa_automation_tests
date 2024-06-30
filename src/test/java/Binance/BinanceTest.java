@@ -6,9 +6,9 @@ import PageObject.*;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -37,18 +37,17 @@ public class BinanceTest extends BaseTest {
         step("Проверка, содержит ли название криптовалюты до слеша нужные символы", () -> {
             String expectedResult = "BTC";
             String actualResult = marketsPage.getBeforeSlashCryptoName(MarketsPage.GET_BEFORE_SLASH_CRYPTO_NAME);
-            Assert.assertTrue(expectedResult.equals(actualResult));
+            Assertions.assertTrue(expectedResult.equals(actualResult));
         });
     }
 
     @Test
     @Description("Проверка отображения подраздела 'Новые листинги' в разделе 'Рынки'. " +
             "Составление отчета с названием криптовалюты и её ценой ")
-    void testCase_2() throws FileNotFoundException {
+    void testCase_2(){
         step("Открываем сайт", ()-> mainPage = new MainPage(SomeVariables.BASE_URL));
         step("Принимаем куки", () -> mainPage.buttonClicker(MainPage.ACCEPT_COOKIE));
         step("Открываем раздел рынки", () -> marketsPage = new MarketsPage(HeaderMenu.MARKETS_BUTTON_XPATH));
-        //step("", () -> );
         step("Нажимаем на кнопку перехода в подраздел 'Новые листинги'", () -> marketsPage.buttonClicker(MarketsPage.MARKET_SECTOR_NEW_LISTINGS_BUTTON_XPATH));
         step("Записываем в коллекцию все названия колонок, сверяем их с ожидаемым результатом," +
                 "записываем в текстовый файл короткие названия криптовалют и их цену", () -> {
@@ -61,7 +60,7 @@ public class BinanceTest extends BaseTest {
             expectedResult.add(3,"Объем за 24ч");
             expectedResult.add(4,"Капитализация");
             expectedResult.add(5,"Дата листинга");
-            Assert.assertTrue(textsArray1.equals(expectedResult));
+            Assertions.assertTrue(textsArray1.equals(expectedResult));
         });
         step("Записываем в файл 'testCase_2_output.txt' короткие названия криптовалют и их цену", () -> {
             ElementsCollection cryptoShortNamesCollection = MarketsPage.NEW_LISTINGS_CRYPTO_SHORT_NAME_COLLECTION.shouldBe(size(10));
@@ -121,7 +120,7 @@ public class BinanceTest extends BaseTest {
             String bool = "";
             String link = postsElementsCollection.get(1).getAttribute("href");
             writeToTextFile("textFiles/testCase_4_output", link);
-            Assert.assertTrue(!(bool.equals(link)));
+            Assertions.assertTrue(!(bool.equals(link)));
         });
     }
 
@@ -145,7 +144,7 @@ public class BinanceTest extends BaseTest {
             String bool = "";
             String result = firstCoinAPR.getText();
             writeToTextFile("textFiles/testCase_5_output", result);
-            Assert.assertTrue(!(bool.equals(result)));
+            Assertions.assertTrue(!(bool.equals(result)));
         });
     }
 }
