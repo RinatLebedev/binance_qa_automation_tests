@@ -88,7 +88,7 @@ public interface SomeFunctions {
             /**
              * Mac - создает код аутентификации сообщений(MAC - Message Authentication Code) из двичных данных,
              * это дайджест сообщений, зашифрованный секретным ключом
-             * Подлинность MAC можно проверить только при наличии сексетного ключа
+             * Подлинность MAC можно проверить только при наличии секретного ключа
              */
             byte[] hmacSha256 = null;
             SecretKeySpec secretKeySpec = new SecretKeySpec(privateKeyPath.getBytes(), "HmacSHA256");
