@@ -1,21 +1,20 @@
 # branch "main"
-.gradle
-.idea
-init
-work
-.gitlab-ci.yml
-ajcore.20240628.185745.581.txt
-ajcore.20240628.185745.710.txt
-docker-compose.yaml
-jenkins.groovy
+#.gradle
+#.idea
+#init
+#work
+#.gitlab-ci.yml
+#ajcore.20240628.185745.581.txt
+#ajcore.20240628.185745.710.txt
+#docker-compose.yaml
+#jenkins.groovy
 
 
 
 
 # branch "compose"
-#.gradle
-#.idea
-#images
-#.gitlab-ci.yml
-#ajcore.20240628.185745.581.txt
-#ajcore.20240628.185745.710.txt
+.gradle
+.idea
+.gitlab-ci.yml
+ajcore.20240628.185745.581.txt
+ajcore.20240628.185745.710.txt
