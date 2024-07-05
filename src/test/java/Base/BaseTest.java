@@ -24,18 +24,20 @@ abstract public class BaseTest implements Variables{
     protected HeaderMenu headerMenu;
 
     public void setUp(){
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.http.factory", "jdk-http-client");
+        //Configuration.baseUrl = "https://www.binance.com/ru";
+        Configuration.baseUrl = "http://localhost:4444/wd/hub";
         Configuration.browser = "chrome";
+        //Configuration.remote = "http://192.168.1.71:4444/wd/hub";
+        Configuration.remote = "http://localhost:4444/wd/hub";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager"; //Должен ли драйвер подождать, пока страница полностью загрузится
         Configuration.headless = false; //Отображется ли окно при прогонке теста(false). Безоконный режим - (true)
-        //Configuration.baseUrl = "https://www.binance.com/ru";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
         //Selenoid
-        //Configuration.baseUrl = "http://localhost:4444/wd/hub";
         Configuration.browserCapabilities = capabilities();
-        Configuration.remote = "http://localhost:4444/wd/hub";
+
 
 
     }
@@ -62,5 +64,7 @@ abstract public class BaseTest implements Variables{
     @AfterEach
     public void tearDown(){
         Selenide.closeWebDriver();
+        Configuration.remote = null;
+        Configuration.browserCapabilities = new DesiredCapabilities();
     }
 }
