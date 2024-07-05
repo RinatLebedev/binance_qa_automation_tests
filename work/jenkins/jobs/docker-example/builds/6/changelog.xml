@@ -1,0 +1,18 @@
+commit d10757db5ed7c4841c3c97ac46c771801ee7612b
+tree 079069acd036841f0e8d61fe40d770968a090de4
+parent 404289e3e93ed0ec44dab151b6b4a8e65563ed0b
+author rinatleb <lebedev_rinat@mail.ru> 2024-07-05 17:40:14 +0300
+committer rinatleb <lebedev_rinat@mail.ru> 2024-07-05 17:40:14 +0300
+
+    edit basetest
+
+
+:100644 100644 3130fcdc9e43c418d152c15449d5b25316462e8a 00811d192dd8d18df1c582bbbbd05ca19e9b5c56 M	.gradle/8.8/executionHistory/executionHistory.bin
+:100644 100644 575fcce45c21fe38b2679a46eeec5783f179f599 6e13ce87c6f3f48e1e15c1c80fae37757988bda2 M	.gradle/8.8/executionHistory/executionHistory.lock
+:100644 100644 f71cbdc3b3fd1d8b07f4b8cbfd6b6af90d5e02bf 2ed7960af93f8cd2d34c9f70257604e64dec4067 M	.gradle/8.8/fileHashes/fileHashes.bin
+:100644 100644 47fa11f23ba49161c0fb0479dc8a00b3c67548a5 0febfa46de03925cfc3a3a8484b72516cf7bdbd0 M	.gradle/8.8/fileHashes/fileHashes.lock
+:100644 100644 0bca866ad3d881657bb6bb61d239163c1972ee7b 00bb7500361051250ee2e0725e023c831f107639 M	.gradle/8.8/fileHashes/resourceHashesCache.bin
+:100644 100644 7a73c96ff7a72fcd966da45707b44a99add68a72 f6f701f0838509c913c1375bddfe68f0206b1d0f M	.gradle/buildOutputCleanup/buildOutputCleanup.lock
+:100644 100644 2c592694c50ef6c629ebfd89e801812775c4b021 6ebfd7fab321673d80f7f950868728e4bceec4c0 M	.gradle/file-system.probe
+:100644 100644 ec27e612d074fb26047b08244366ae635e5b2c2e b828b9627340de3311d31c313a8b9b7f5d4fdd14 M	src/test/java/Base/BaseTest.java
+:100644 100644 34ac54039f038a29d20505d6aa69b55ff2ba32da f7a33a3704518d30bffed4f6a22219eda0efc078 M	work/jenkins/logs/health-checker.log

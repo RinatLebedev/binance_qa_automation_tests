@@ -1,0 +1,12 @@
+commit 404289e3e93ed0ec44dab151b6b4a8e65563ed0b
+tree 5ea39929d7671c14a1875bb383da0d3b93451a88
+parent 5eaeb738617a8467d57b0fff328d7e872f224596
+author rinatleb <lebedev_rinat@mail.ru> 2024-07-05 14:44:16 +0300
+committer rinatleb <lebedev_rinat@mail.ru> 2024-07-05 14:44:16 +0300
+
+    some
+
+
+:100644 100644 7fa3dbf406e37cd822e30ea23c094c7ba35e75f0 ec27e612d074fb26047b08244366ae635e5b2c2e M	src/test/java/Base/BaseTest.java
+:100644 100644 ee39bde97d80422eb8d06290900318cb4973dc6e 34ac54039f038a29d20505d6aa69b55ff2ba32da M	work/jenkins/logs/health-checker.log
+:100644 100644 db7d91f208218f3ae8b43559082574a61e5c38c9 c3f90e39192d180495c425622b5caca1014ab8c4 M	work/jenkins/users/users.xml

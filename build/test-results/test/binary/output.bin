@@ -1,0 +1,1123 @@
+ù02:40:40.648 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://testnet.binance.vision:443
+à02:40:40.953 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to testnet.binance.vision:443
+z02:40:41.689 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x02:40:41.697 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+Å02:40:41.697 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+02:40:41.699 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p02:40:41.700 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+Ç02:40:41.701 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/ping HTTP/1.1
+b02:40:41.702 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/ping HTTP/1.1[\r][\n]"
+g02:40:41.707 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T02:40:41.707 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+e02:40:41.707 [Test worker] DEBUG org.apache.http.wire --  >> "Host: testnet.binance.vision[\r][\n]"
+_02:40:41.708 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w02:40:41.708 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f02:40:41.708 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I02:40:41.708 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+Z02:40:41.709 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/ping HTTP/1.1
+_02:40:41.709 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L02:40:41.709 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+]02:40:41.709 [Test worker] DEBUG org.apache.http.headers -- >> Host: testnet.binance.vision
+W02:40:41.709 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o02:40:41.709 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^02:40:41.710 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X02:40:42.487 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u02:40:42.494 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+Z02:40:42.494 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 2[\r][\n]"
+_02:40:42.494 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l02:40:42.494 [Test worker] DEBUG org.apache.http.wire --  << "Date: Sun, 30 Jun 2024 23:40:42 GMT[\r][\n]"
+V02:40:42.495 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y02:40:42.495 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: 32b58d99-57a4-4ba6-aabe-0ee11ce92b2d[\r][\n]"
+]02:40:42.495 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 1[\r][\n]"
+`02:40:42.496 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 1[\r][\n]"
+á02:40:42.496 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d02:40:42.496 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h02:40:42.496 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h02:40:42.496 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t02:40:42.497 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v02:40:42.497 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i02:40:42.497 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{02:40:42.497 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y02:40:42.498 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S02:40:42.498 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g02:40:42.498 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y02:40:42.498 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f02:40:42.499 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+é02:40:42.499 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 d8b0b3928e53502c6ce822abc3cc3d70.cloudfront.net (CloudFront)[\r][\n]"
+_02:40:42.499 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+é02:40:42.499 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: W2Cr22mMCCNvr0ubEQPqZCFyX6Y8dR7hDj1DDUxRfPFf4gIt7w0Hrg==[\r][\n]"
+I02:40:42.500 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{02:40:42.503 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P02:40:42.504 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m02:40:42.504 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+R02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 2
+W02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << Date: Sun, 30 Jun 2024 23:40:42 GMT
+N02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: 32b58d99-57a4-4ba6-aabe-0ee11ce92b2d
+U02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 1
+X02:40:42.505 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 1
+02:40:42.506 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\02:40:42.506 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`02:40:42.506 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`02:40:42.506 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l02:40:42.506 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q02:40:42.507 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^02:40:42.508 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+Ü02:40:42.508 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 d8b0b3928e53502c6ce822abc3cc3d70.cloudfront.net (CloudFront)
+W02:40:42.508 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+Ü02:40:42.508 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: W2Cr22mMCCNvr0ubEQPqZCFyX6Y8dR7hDj1DDUxRfPFf4gIt7w0Hrg==
+}02:40:42.527 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+à02:40:42.573 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+†02:40:42.573 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+C02:40:43.364 [Test worker] DEBUG org.apache.http.wire --  << "{}"
+∞02:40:43.367 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@440d2d64
+Ü02:40:43.367 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 2
+Connection: keep-alive
+%Date: Sun, 30 Jun 2024 23:40:42 GMT
+Server: nginx
+2x-mbx-uuid: 32b58d99-57a4-4ba6-aabe-0ee11ce92b2d
+x-mbx-used-weight: 1
+x-mbx-used-weight-1m: 1
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 d8b0b3928e53502c6ce822abc3cc3d70.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: W2Cr22mMCCNvr0ubEQPqZCFyX6Y8dR7hDj1DDUxRfPFf4gIt7w0Hrg==
+
+{
+    
+}
+ù02:40:43.671 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://testnet.binance.vision:443
+à02:40:43.672 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to testnet.binance.vision:443
+z02:40:43.804 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x02:40:43.805 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+Å02:40:43.805 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+02:40:43.805 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p02:40:43.805 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+Ç02:40:43.805 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/time HTTP/1.1
+b02:40:43.806 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/time HTTP/1.1[\r][\n]"
+g02:40:43.806 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T02:40:43.806 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+e02:40:43.806 [Test worker] DEBUG org.apache.http.wire --  >> "Host: testnet.binance.vision[\r][\n]"
+_02:40:43.807 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w02:40:43.807 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f02:40:43.807 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I02:40:43.807 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+Z02:40:43.808 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/time HTTP/1.1
+_02:40:43.808 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L02:40:43.808 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+]02:40:43.808 [Test worker] DEBUG org.apache.http.headers -- >> Host: testnet.binance.vision
+W02:40:43.808 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o02:40:43.809 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^02:40:43.809 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X02:40:44.096 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u02:40:44.096 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[02:40:44.097 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 28[\r][\n]"
+_02:40:44.097 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l02:40:44.097 [Test worker] DEBUG org.apache.http.wire --  << "Date: Sun, 30 Jun 2024 23:40:43 GMT[\r][\n]"
+V02:40:44.098 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y02:40:44.098 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: 89129c14-bf87-4fcf-9ae4-1d1017351346[\r][\n]"
+]02:40:44.098 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 2[\r][\n]"
+`02:40:44.098 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 2[\r][\n]"
+á02:40:44.098 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d02:40:44.099 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h02:40:44.099 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h02:40:44.099 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t02:40:44.099 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v02:40:44.099 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i02:40:44.100 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{02:40:44.100 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y02:40:44.100 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S02:40:44.100 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g02:40:44.100 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y02:40:44.101 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f02:40:44.101 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+é02:40:44.101 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 45ff2040e09b26d7b6a62f48718e1406.cloudfront.net (CloudFront)[\r][\n]"
+_02:40:44.102 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+é02:40:44.102 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: rfZ_TeKvQeFNGeNCAuljwWPaqxI6PSf_IL9eT3NFk5c2LoqZdkhGfQ==[\r][\n]"
+I02:40:44.103 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{02:40:44.103 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P02:40:44.103 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m02:40:44.103 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+S02:40:44.103 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 28
+W02:40:44.103 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << Date: Sun, 30 Jun 2024 23:40:43 GMT
+N02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: 89129c14-bf87-4fcf-9ae4-1d1017351346
+U02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 2
+X02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 2
+02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\02:40:44.104 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K02:40:44.105 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_02:40:44.106 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q02:40:44.106 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^02:40:44.106 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+Ü02:40:44.106 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 45ff2040e09b26d7b6a62f48718e1406.cloudfront.net (CloudFront)
+W02:40:44.106 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+Ü02:40:44.106 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: rfZ_TeKvQeFNGeNCAuljwWPaqxI6PSf_IL9eT3NFk5c2LoqZdkhGfQ==
+}02:40:44.107 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+à02:40:44.108 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+†02:40:44.108 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]02:40:44.116 [Test worker] DEBUG org.apache.http.wire --  << "{"serverTime":1719790843902}"
+∞02:40:44.117 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4fd00e10
+Ü02:40:44.117 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 28
+Connection: keep-alive
+%Date: Sun, 30 Jun 2024 23:40:43 GMT
+Server: nginx
+2x-mbx-uuid: 89129c14-bf87-4fcf-9ae4-1d1017351346
+x-mbx-used-weight: 2
+x-mbx-used-weight-1m: 2
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 45ff2040e09b26d7b6a62f48718e1406.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: rfZ_TeKvQeFNGeNCAuljwWPaqxI6PSf_IL9eT3NFk5c2LoqZdkhGfQ==
+
+{
+     "serverTime": 1719790843902
+}
+â02:40:44.561 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:65313<->108.156.22.94:443 closed
+1719790843902
+ñ02:40:48.802 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+Å02:40:48.814 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z02:40:48.932 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x02:40:48.932 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+Å02:40:48.932 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+02:40:48.932 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p02:40:48.932 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+ô02:40:48.933 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/exchangeInfo?symbol=BTCUSDT HTTP/1.1
+y02:40:48.933 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/exchangeInfo?symbol=BTCUSDT HTTP/1.1[\r][\n]"
+g02:40:48.933 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T02:40:48.933 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^02:40:48.933 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_02:40:48.933 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w02:40:48.933 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f02:40:48.934 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I02:40:48.934 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+q02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/exchangeInfo?symbol=BTCUSDT HTTP/1.1
+_02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^02:40:48.934 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X02:40:49.222 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u02:40:49.222 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+\02:40:49.222 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 865[\r][\n]"
+_02:40:49.223 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l02:40:49.223 [Test worker] DEBUG org.apache.http.wire --  << "Date: Sun, 30 Jun 2024 23:40:49 GMT[\r][\n]"
+V02:40:49.223 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y02:40:49.223 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: 5e0e8e03-c069-4aa0-80a9-746a484be416[\r][\n]"
+^02:40:49.223 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 20[\r][\n]"
+a02:40:49.224 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 20[\r][\n]"
+_02:40:49.224 [Test worker] DEBUG org.apache.http.wire --  << "content-encoding: gzip[\r][\n]"
+á02:40:49.224 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d02:40:49.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h02:40:49.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h02:40:49.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t02:40:49.226 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v02:40:49.226 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i02:40:49.226 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{02:40:49.226 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y02:40:49.226 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S02:40:49.226 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g02:40:49.227 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y02:40:49.227 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f02:40:49.227 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+é02:40:49.227 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 1c104af9dcb33e29b8c5ed9ebabafb86.cloudfront.net (CloudFront)[\r][\n]"
+_02:40:49.227 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+é02:40:49.227 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: ckg-eeFoOCCznqEAuaBgY3ev8JTmZBnqOUrA0tEkUjNxrJ9fwYPDXg==[\r][\n]"
+I02:40:49.228 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{02:40:49.228 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P02:40:49.228 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m02:40:49.228 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+T02:40:49.228 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 865
+W02:40:49.228 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d02:40:49.228 [Test worker] DEBUG org.apache.http.headers -- << Date: Sun, 30 Jun 2024 23:40:49 GMT
+N02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: 5e0e8e03-c069-4aa0-80a9-746a484be416
+V02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 20
+Y02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 20
+W02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << content-encoding: gzip
+02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\02:40:49.229 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_02:40:49.230 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q02:40:49.231 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^02:40:49.231 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+Ü02:40:49.231 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 1c104af9dcb33e29b8c5ed9ebabafb86.cloudfront.net (CloudFront)
+W02:40:49.231 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+Ü02:40:49.231 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: ckg-eeFoOCCznqEAuaBgY3ev8JTmZBnqOUrA0tEkUjNxrJ9fwYPDXg==
+}02:40:49.238 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+à02:40:49.238 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+Á02:40:49.240 [Test worker] DEBUG org.apache.http.wire --  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x8d]U]o[0xa3]:[0x10][0xfd]/[0xf3][0x8c]*C[0x9b][0xa6][0xe1][0x8d][0x4][0x9a]E[0xe5]#[0x5]G[0xbb]{W[0x11]r[0x88][0x9b]k[0x15]0[0x17][0x9c]4[0xd9][0xaa][0xff]}e [0x1f]&[0x89][0xee]>[0xc1][0x1c][0xcf][0x99]9c[0x8f][0xc7][0x9f] XN[0xf3][0x82][0x82][0x9]s<[0x1][\r]jZmi[0x85]YN[0xc1][0xd4][0x87][0xfa]h8BO[0xf]#d[0xc]5[0xa8][0x88][0xa0][0x1e][0xcb][0x99][0xa8][0xc1][0xfc][0xf5]y2[0xf1][0xbe][0x94][0xfc][0xc8]y[0x9d];1N[0xbe];[0xee][0xf4][0x1b][0x6][\r]X!h[0xb5]%[0x19][0x98][0xe0][0xbb][0xc1][0x1c];gX[0xb0][0xc9][0xc1][0xd4]5[0xc8]d[0x0]0[0x1f][0x11]B_[0xda]e[0xcc]0[0xb2][0x9d](Vc[0xc5][0xce]$[0xc][0xec][0x8b]X[0xe8][0x18]L[0xff][0xfb]X[0xb6][0xf5][0xf3][0xb6]([0x3][0xa1][0x1b][0xb2]"[0xeb]{[0xd2][0x95][0x1b][0xff]M[0xa1][0x83]S[0xa1][0xba][0xc][0xb9][0xd0][0x80][0xee][0xd2]I[0xb1][0xa6][0xcf],[0x13][0xb4][0x92];[0xba][0xd0][0xa0][0xde][0xe7]K[0x9e][0xb5][0xdb][0xdb][0xfe][0x83][0x9]c<[0x99][0xc7][0xb6][0xdc][0xd0]Z[0x10][0xb1][0xa9][0xc1][0x4][0x1c]Y[0xb6][0x1b]LA[0x83]%[0xa9][0xa9]U[0xd7]T[0xb4][0x8e][0xe7][0xc8][0xac][0xa2])[0xab][0x19]/[0xc0]|[0xd2][0xe0][0xbf][\r][0x17]G[0xcf].^[0x83][0xdd]rSq[0x19]u[0xc2][0xf3][0x9c][0xd5][0x12][0xba][0xc2][0xb9][0xb5][0xc8][0xab][0x15][0xad][0xe4][0xb6][0xc9][0xaa][0xc0]s}Wfn[0xbe][0x89]o[0xbd]8[0x11]h[0xe0][[0xd1][0x8b]#[0xe1][0x18][0x87][0xb3][0xc4][0xb][0xe3]898b[0xeb][0xc5]IfQ[0xf8][0xec][0xe2][0xe][h[0xc0]R[0xba][0xa4][0xd5][0xda][0xca]2[0xfe]AW`[0x8a]jC5[0xe0])[0xef]#[0xa2][0x8f]4RC)[0xe9]U[0xec]}R[0xbd]S[0xd1][0xf3] [0xd2][0xc4][0x15]a[0x19]+[0xd6][0xb1][0xe0][0xe5]a!%EJ[0xb3][0x88][0x96][0x19]Ii[0x8f][0xc4][0xea][0xb8][0xe4][0x2]Wd[0xc5][0x8a][0xbe],V[0xfb][0xa4]Z[0xb3][0xe2][0xfa][0xea][0xdb][0xf1][0xf8]?[0xbb][0xff][0xae][0xc5]f[0x91];q[0x92]g[0xd7][0xc3][0xcd][0x16][0xe5][0xac][0x98]U,[0x95]+[0xe8][0xe][0xe9]Mg"[0x89][0x93][0xdd][0x1][0xef][0xc0];[0x84][0x8e][0xab][0x82][0xa5][0xef]1[0xfb][0xdd]c[0xc9][0x8e]Vry!Nb[0xf7][0x1f][0xa7][0xcd][0xf3]*[0xf6][0xad]?B[\r][0xa5][0xcd][0xd2][0xa2][0xa3]^[0x82]Z[0xd0][0xf2][0x94][0xe0]@[0xb8]H[0xe0]N[0x9c][0xb1][0x13]M[0x93][0x99][0x15]5[0x17][0xe6]xQ/<[0xdb]VHn+B=E[0xba]~[0xf7]0[0x18][0xe][0x8d]{[0xfd][0xf1][0x9a][0xa0][0xeb][0x15][0xe3][0xc8]r=7[0x98]&[0xb6][0xe3]a[0xab][0xcd]r8tk[0xc9][0xb7][0xd4][0xa6][0x99] [0xed]T[0xc9][0xc9][0xee][0xda][0x92][0x9c][0xe][\n]"
+§02:40:49.241 [Test worker] DEBUG org.apache.http.wire --  << "oL3[0xfe]q[0x9d]w[0xbe]dt3E=m'[0x9a]8[0x1]N[0xda]S[0x1f][0xff]Lb[0xd7][0x96][0xc5]/[0xd9][0xca][0xdf]d[0x82][0x95][0x19][0xa3][0xd5][0xbc][0x4][0x13][0x6]}[0xd4][0xe6][0x1f]ES[0xad][0x1][0x1a][0x90][0xfa][0xfd][0x8a][0xbf][0x82][0xaa][0xfe][0xdb]u[0xd3]>>+j0[0x7][0x17][0xba][0x82][0x10][0xbb]a`y[0xed][0xe][0x5]\0^4snp~[0x18][0xa4],[0xb3][0xbd][0xcf][\n]"
+ì02:40:49.241 [Test worker] DEBUG org.apache.http.wire --  << "[0xcc][0xdb]+uh[0xee][0x9c][0xec][0xce]([0xa3][0xcb][0xfe]l[0x89]dw"[0xbe][0x91][0xac][0xa6][0xff][0xaf][0xcb][0xb7]~$[0xc1][0xdc]O[0x8e]3][0xa6][0xda][0xe4][0xcd][0xcd][0xae][0x9b]=[0xbe]I[0xb1][0xbc]i[0xd8][0xe7]Y[0xd9][0x9a][0x1f][0xb8][0x3]9[0x9d]KZu[0xd3][0xac][0x9b][0xcc]' [0xa6][0xcd][0xfb][0xf7][0xb][0xe2]Y[0x88][0xdb][0xe1]5u[0x3]9[0xaa]";[0x99]F[0xb3][0x4][0xa1][0x7][0xc5][0x1a]([0xd6][0xa3]b[0x8d][0xce]-[0x1d])[0x96][0xae]X[0x86]b[0xdd]+[0x96][0x92]OW[0xf2][0xe9]J>}[0xa8]XO[0x8a][0xa5]h1[0x14]-[0x86][0xa2][0xc5]P[0xb4][0x18][0x8a][0x16]C[0xd1]b[0xc]`[0xb1][0xd0]`E[0xdf][0xc8]&[0x13]1[0xcd][0xde][0xe4][0x14][0x94]O[0xce][0x96][0x16][0xb2]1|[0xbe][0x92]g[0xe3][0xfc][0x98][0xb9][0x91]s|[0xf]H;#o[0xf8]7[0xf]I[0xc7][0xc0][0x1d][0xa3][0x17][0xa0]3[0xc7]![0xfe][0x6][0x8b][0xaf][0xc5][0xd7][0x1f][0xd3][0xb7][0xa7]&[0xe8][0x8][0x0][0x0]"
+†02:40:49.242 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+∞02:40:49.247 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2693e39c
+Ü02:40:49.248 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 865
+Connection: keep-alive
+%Date: Sun, 30 Jun 2024 23:40:49 GMT
+Server: nginx
+2x-mbx-uuid: 5e0e8e03-c069-4aa0-80a9-746a484be416
+x-mbx-used-weight: 20
+x-mbx-used-weight-1m: 20
+content-encoding: gzip
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 1c104af9dcb33e29b8c5ed9ebabafb86.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: ckg-eeFoOCCznqEAuaBgY3ev8JTmZBnqOUrA0tEkUjNxrJ9fwYPDXg==
+
+{
+    "timezone": "UTC",
+!    "serverTime": 1719790849027,
+    "rateLimits": [
+
+        {
+/            "rateLimitType": "REQUEST_WEIGHT",
+"            "interval": "MINUTE",
+            "intervalNum": 1,
+            "limit": 6000
+        },
+
+        {
+'            "rateLimitType": "ORDERS",
+"            "interval": "SECOND",
+            "intervalNum": 10,
+            "limit": 100
+        },
+
+        {
+'            "rateLimitType": "ORDERS",
+            "interval": "DAY",
+            "intervalNum": 1,
+            "limit": 200000
+        },
+
+        {
+-            "rateLimitType": "RAW_REQUESTS",
+"            "interval": "MINUTE",
+            "intervalNum": 5,
+            "limit": 61000
+
+        }
+    ],
+    "exchangeFilters": [
+	        
+    ],
+    "symbols": [
+
+        {
+!            "symbol": "BTCUSDT",
+!            "status": "TRADING",
+             "baseAsset": "BTC",
+%            "baseAssetPrecision": 8,
+"            "quoteAsset": "USDT",
+!            "quotePrecision": 8,
+&            "quoteAssetPrecision": 8,
+*            "baseCommissionPrecision": 8,
++            "quoteCommissionPrecision": 8,
+            "orderTypes": [
+                "LIMIT",
+                "LIMIT_MAKER",
+                "MARKET",
+#                "STOP_LOSS_LIMIT",
+$                "TAKE_PROFIT_LIMIT"
+            ],
+$            "icebergAllowed": true,
+             "ocoAllowed": true,
+             "otoAllowed": true,
+0            "quoteOrderQtyMarketAllowed": true,
+'            "allowTrailingStop": true,
+*            "cancelReplaceAllowed": true,
+*            "isSpotTradingAllowed": true,
+,            "isMarginTradingAllowed": true,
+            "filters": [
+                {
+2                    "filterType": "PRICE_FILTER",
+.                    "minPrice": "0.01000000",
+4                    "maxPrice": "1000000.00000000",
+-                    "tickSize": "0.01000000"
+                },
+                {
+.                    "filterType": "LOT_SIZE",
+,                    "minQty": "0.00001000",
+/                    "maxQty": "9000.00000000",
+-                    "stepSize": "0.00001000"
+                },
+                {
+3                    "filterType": "ICEBERG_PARTS",
+                     "limit": 10
+                },
+                {
+5                    "filterType": "MARKET_LOT_SIZE",
+,                    "minQty": "0.00000000",
+.                    "maxQty": "113.45772316",
+-                    "stepSize": "0.00000000"
+                },
+                {
+4                    "filterType": "TRAILING_DELTA",
+1                    "minTrailingAboveDelta": 10,
+3                    "maxTrailingAboveDelta": 2000,
+1                    "minTrailingBelowDelta": 10,
+2                    "maxTrailingBelowDelta": 2000
+                },
+                {
+;                    "filterType": "PERCENT_PRICE_BY_SIDE",
+,                    "bidMultiplierUp": "5",
+0                    "bidMultiplierDown": "0.2",
+,                    "askMultiplierUp": "5",
+0                    "askMultiplierDown": "0.2",
+&                    "avgPriceMins": 5
+                },
+                {
+.                    "filterType": "NOTIONAL",
+1                    "minNotional": "5.00000000",
+.                    "applyMinToMarket": true,
+7                    "maxNotional": "9000000.00000000",
+/                    "applyMaxToMarket": false,
+&                    "avgPriceMins": 5
+                },
+                {
+4                    "filterType": "MAX_NUM_ORDERS",
+(                    "maxNumOrders": 200
+                },
+                {
+9                    "filterType": "MAX_NUM_ALGO_ORDERS",
+*                    "maxNumAlgoOrders": 5
+                }
+            ],
+            "permissions": [
+                
+            ],
+             "permissionSets": [
+                [
+                    "SPOT",
+                    "MARGIN",
+#                    "TRD_GRP_004",
+#                    "TRD_GRP_005",
+#                    "TRD_GRP_006",
+#                    "TRD_GRP_009",
+#                    "TRD_GRP_010",
+#                    "TRD_GRP_011",
+#                    "TRD_GRP_012",
+#                    "TRD_GRP_013",
+#                    "TRD_GRP_014",
+#                    "TRD_GRP_015",
+#                    "TRD_GRP_016",
+#                    "TRD_GRP_017",
+#                    "TRD_GRP_018",
+#                    "TRD_GRP_019",
+#                    "TRD_GRP_020",
+#                    "TRD_GRP_021",
+#                    "TRD_GRP_022",
+#                    "TRD_GRP_023",
+#                    "TRD_GRP_024",
+"                    "TRD_GRP_025"
+                ]
+            ],
+>            "defaultSelfTradePreventionMode": "EXPIRE_MAKER",
+1            "allowedSelfTradePreventionModes": [
+                 "EXPIRE_TAKER",
+                 "EXPIRE_MAKER",
+                "EXPIRE_BOTH"
+            ]
+
+        }
+    ]
+}
+ñ02:40:49.995 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+Å02:40:49.995 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z02:40:50.093 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x02:40:50.093 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+Å02:40:50.093 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+02:40:50.093 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p02:40:50.094 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+ô02:40:50.094 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/ticker/24hr?symbol=DOGEUSDT HTTP/1.1
+y02:40:50.094 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/ticker/24hr?symbol=DOGEUSDT HTTP/1.1[\r][\n]"
+g02:40:50.094 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T02:40:50.094 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^02:40:50.094 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_02:40:50.095 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w02:40:50.095 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f02:40:50.095 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I02:40:50.095 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+q02:40:50.095 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/ticker/24hr?symbol=DOGEUSDT HTTP/1.1
+_02:40:50.095 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L02:40:50.095 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V02:40:50.095 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W02:40:50.096 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o02:40:50.096 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^02:40:50.096 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X02:40:50.378 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u02:40:50.379 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+\02:40:50.379 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 283[\r][\n]"
+_02:40:50.379 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l02:40:50.380 [Test worker] DEBUG org.apache.http.wire --  << "Date: Sun, 30 Jun 2024 23:40:50 GMT[\r][\n]"
+V02:40:50.380 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y02:40:50.380 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: c376317e-7102-4414-81cc-a703637533f4[\r][\n]"
+^02:40:50.380 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 22[\r][\n]"
+a02:40:50.380 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 22[\r][\n]"
+_02:40:50.380 [Test worker] DEBUG org.apache.http.wire --  << "content-encoding: gzip[\r][\n]"
+á02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{02:40:50.381 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+é02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 28854270ecee3f8e2272bf40b3de08fa.cloudfront.net (CloudFront)[\r][\n]"
+_02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+é02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: 73xbpr6BkLAVFQfD2dOWnSV8zcqL3GWy2FgqwH5cOXhb5W4fSxNBCw==[\r][\n]"
+I02:40:50.382 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{02:40:50.383 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+T02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 283
+W02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Date: Sun, 30 Jun 2024 23:40:50 GMT
+N02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: c376317e-7102-4414-81cc-a703637533f4
+V02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 22
+Y02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 22
+W02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << content-encoding: gzip
+02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n02:40:50.383 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+Ü02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 28854270ecee3f8e2272bf40b3de08fa.cloudfront.net (CloudFront)
+W02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+Ü02:40:50.384 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: 73xbpr6BkLAVFQfD2dOWnSV8zcqL3GWy2FgqwH5cOXhb5W4fSxNBCw==
+}02:40:50.385 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+à02:40:50.385 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+ä02:40:50.385 [Test worker] DEBUG org.apache.http.wire --  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff]m[0x91]MO[0xc3]0[0xc][0x86][0xff][0x8b][0xcf]U[0xe5]$[0xce]G{C[0x1b]B[0x9c][0x18]bpo[0xd7][0xac][0x8d][0xe8][0x96][0xb1]f[0x9b]&[0xc4]GY[0xb][0xa4][0x12]9[0xbe][0x8f][0x1f][0xc7][0xb2]?a[0xb8][0xee]j[0xdf]C[0x9][0xcb][0xa7][0x87][0xfb][0xd7][0x97][0xe5][0x1a]28[0x1c][0xdd][0xc6].[0xba]j[0xdf]Z([0x1]sDn[0x18]"[0xce][0xd1][0xca][0x1e]7v[0x1f][0xa0][0x4][0x9e][0xb]$[0xc8][0xe0]b][0xdb][0x5][0xdb][0xdc][0x9d][0xdb]U[0xac][0xbb][0xc9][0x8c]sY(T7[0xd9][0x9e][0x17][0xbd][0x1f]lJY[0xa1][0xc7][0xd6]}5[0x84][0x14][0x90]N[0xc0]s[0xb8]B[0x9]$x[0x8e][0xd3][0x83][0xc]j[0xd7][0xfc]+[0xd4][0xae][0x19][0xeb][0x99][0xc2][0x82]fJ5[0xbc][0xcf][0x15][0xf3][0x9b][0x8f][\n]"
+≤02:40:50.385 [Test worker] DEBUG org.apache.http.wire --  << "'!dj[0xf8][0x83][0xdd][0xcf][0xe7]U#[0xe8]\[0xdb][0xa5]@*[0x9a][0xe6][0xf5][0x97]4G9u:[0xfb][0xfe][0xb4][0x8b][0xa9][0x10][0xdc][0xa8]B[0x11][0xa6][0xff]|[0x9c]|[0xb0]o?%[0x84][0x6][0x8d]D[0x99]k[0xa3]$[0xfb][0x9b]d[0xed]"f:n[0x8d][0x88][\n]"
+V02:40:50.385 [Test worker] DEBUG org.apache.http.wire --  << "M<[0x83]M[0xdc]iB[\n]"
+·02:40:50.385 [Test worker] DEBUG org.apache.http.wire --  << "4[0x13][0xd9][0xba][0xe3][0x10][0x1e][0x1b]([0x95] a[0x18]q5[0xae]s[0x8a]$i[0xad]c[0x3][0x8a][0x87]dJ[0x9][0xd2]_[0xdf][0xd0][0xe1][0x80]`[0x15][0x2][0x0][0x0]"
+†02:40:50.386 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+∞02:40:50.389 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@225b460a
+Ü02:40:50.389 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 283
+Connection: keep-alive
+%Date: Sun, 30 Jun 2024 23:40:50 GMT
+Server: nginx
+2x-mbx-uuid: c376317e-7102-4414-81cc-a703637533f4
+x-mbx-used-weight: 22
+x-mbx-used-weight-1m: 22
+content-encoding: gzip
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 28854270ecee3f8e2272bf40b3de08fa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: 73xbpr6BkLAVFQfD2dOWnSV8zcqL3GWy2FgqwH5cOXhb5W4fSxNBCw==
+
+{
+    "symbol": "DOGEUSDT",
+!    "priceChange": "0.00281000",
+#    "priceChangePercent": "2.304",
+&    "weightedAvgPrice": "0.12259606",
+$    "prevClosePrice": "0.12197000",
+    "lastPrice": "0.12477000",
+    "lastQty": "432.00000000",
+    "bidPrice": "0.12477000",
+!    "bidQty": "160942.00000000",
+    "askPrice": "0.12478000",
+     "askQty": "24335.00000000",
+    "openPrice": "0.12196000",
+    "highPrice": "0.12564000",
+    "lowPrice": "0.12050000",
+$    "volume": "332869640.00000000",
+(    "quoteVolume": "40808505.78651000",
+    "openTime": 1719704449742,
+     "closeTime": 1719790849742,
+    "firstId": 634381426,
+    "lastId": 634547772,
+    "count": 166347
+}
+ñ02:40:50.438 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+Å02:40:50.438 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z02:40:50.539 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x02:40:50.539 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+Å02:40:50.539 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+02:40:50.540 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p02:40:50.540 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+ô02:40:50.540 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1
+y02:40:50.540 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1[\r][\n]"
+g02:40:50.540 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T02:40:50.540 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^02:40:50.541 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_02:40:50.541 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w02:40:50.541 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f02:40:50.541 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I02:40:50.541 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+q02:40:50.541 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1
+_02:40:50.541 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L02:40:50.541 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V02:40:50.542 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W02:40:50.542 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o02:40:50.542 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^02:40:50.542 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X02:40:50.824 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u02:40:50.825 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[02:40:50.825 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 44[\r][\n]"
+_02:40:50.825 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l02:40:50.825 [Test worker] DEBUG org.apache.http.wire --  << "Date: Sun, 30 Jun 2024 23:40:50 GMT[\r][\n]"
+V02:40:50.826 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y02:40:50.826 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: e255b58e-9a4e-42cb-8c28-069fdb68eaa1[\r][\n]"
+^02:40:50.826 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 24[\r][\n]"
+a02:40:50.826 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 24[\r][\n]"
+á02:40:50.826 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d02:40:50.826 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y02:40:50.827 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S02:40:50.828 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g02:40:50.828 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y02:40:50.828 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f02:40:50.828 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+é02:40:50.828 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 a9aab19bce91fc1e5018f2cb28f3cd7c.cloudfront.net (CloudFront)[\r][\n]"
+_02:40:50.828 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+é02:40:50.829 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: HUragYeBU_adtN1jdjZDOI-Xwd6FIh9CNK3CV194kh6VYS2abZFaRw==[\r][\n]"
+I02:40:50.829 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{02:40:50.829 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P02:40:50.829 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m02:40:50.829 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+S02:40:50.829 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 44
+W02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << Date: Sun, 30 Jun 2024 23:40:50 GMT
+N02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: e255b58e-9a4e-42cb-8c28-069fdb68eaa1
+V02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 24
+Y02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 24
+02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n02:40:50.830 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+Ü02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 a9aab19bce91fc1e5018f2cb28f3cd7c.cloudfront.net (CloudFront)
+W02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+Ü02:40:50.831 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: HUragYeBU_adtN1jdjZDOI-Xwd6FIh9CNK3CV194kh6VYS2abZFaRw==
+}02:40:50.832 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+à02:40:50.832 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+†02:40:50.832 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+m02:40:50.837 [Test worker] DEBUG org.apache.http.wire --  << "{"symbol":"ETHUSDT","price":"3445.62000000"}"
+∞02:40:50.837 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@29897daf
+Ü02:40:50.837 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 44
+Connection: keep-alive
+%Date: Sun, 30 Jun 2024 23:40:50 GMT
+Server: nginx
+2x-mbx-uuid: e255b58e-9a4e-42cb-8c28-069fdb68eaa1
+x-mbx-used-weight: 24
+x-mbx-used-weight-1m: 24
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 a9aab19bce91fc1e5018f2cb28f3cd7c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: HUragYeBU_adtN1jdjZDOI-Xwd6FIh9CNK3CV194kh6VYS2abZFaRw==
+
+{
+    "symbol": "ETHUSDT",
+    "price": "3445.62000000"
+}
+â02:40:51.044 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:65323<->108.156.18.84:443 closed
+â02:40:51.046 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:65322<->108.156.18.84:443 closed
+'{symbol=ETHUSDT, price=3445.62000000}
+ñ02:40:51.171 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+Å02:40:51.171 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+â02:40:51.253 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:65315<->108.156.22.94:443 closed
+z02:40:51.301 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x02:40:51.301 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+Å02:40:51.301 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+02:40:51.301 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p02:40:51.301 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+ß02:40:51.301 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/klines?symbol=BTCUSDT&limit=5&interval=1h HTTP/1.1
+á02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/klines?symbol=BTCUSDT&limit=5&interval=1h HTTP/1.1[\r][\n]"
+g02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f02:40:51.302 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I02:40:51.303 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/klines?symbol=BTCUSDT&limit=5&interval=1h HTTP/1.1
+_02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^02:40:51.303 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X02:40:51.588 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u02:40:51.588 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+\02:40:51.588 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 351[\r][\n]"
+_02:40:51.588 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "Date: Sun, 30 Jun 2024 23:40:51 GMT[\r][\n]"
+V02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: a8da67db-313e-4150-8b4d-f8fda233f512[\r][\n]"
+^02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 26[\r][\n]"
+a02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 26[\r][\n]"
+_02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "content-encoding: gzip[\r][\n]"
+á02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d02:40:51.589 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y02:40:51.590 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S02:40:51.591 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g02:40:51.591 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y02:40:51.591 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f02:40:51.591 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+é02:40:51.591 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 a64b49e5551565c12c7314b5e4419ba4.cloudfront.net (CloudFront)[\r][\n]"
+_02:40:51.591 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+é02:40:51.592 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: Nh-1X57OlMG7-XaSVAbhSLXg0QUNE6lAWAod-Xa6ZCiiXeS6ij9HFQ==[\r][\n]"
+I02:40:51.592 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{02:40:51.592 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P02:40:51.592 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m02:40:51.592 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+T02:40:51.592 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 351
+W02:40:51.592 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d02:40:51.592 [Test worker] DEBUG org.apache.http.headers -- << Date: Sun, 30 Jun 2024 23:40:51 GMT
+N02:40:51.592 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: a8da67db-313e-4150-8b4d-f8fda233f512
+V02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 26
+Y02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 26
+W02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << content-encoding: gzip
+02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_02:40:51.593 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q02:40:51.594 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^02:40:51.594 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+Ü02:40:51.594 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 a64b49e5551565c12c7314b5e4419ba4.cloudfront.net (CloudFront)
+W02:40:51.594 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+Ü02:40:51.594 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: Nh-1X57OlMG7-XaSVAbhSLXg0QUNE6lAWAod-Xa6ZCiiXeS6ij9HFQ==
+}02:40:51.594 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+à02:40:51.596 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+µ	02:40:51.596 [Test worker] DEBUG org.apache.http.wire --  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff]m[0xd2][[0x8e][0xec]0[0x8][0x4][0xd0][0xbd][0xf8][0xdb]BP[0x14][0xaf][0xb5][0x8c]f[0xff][0xdb][0xb8]J'[0xdd][0x93][0xb4][0xae][0xff]\[0x8a][0xe0][0x98][0xf0][0xf3]ceSE}[0x9d][0xbd][0x12][0x1a]!~^u[0x1d][0x81][0xa9][0x8a][0xde][0x2][0xeb][0xc1]#[0x80]"[0xa5][0xfd][0x13]D[0x87]X[0x0][0xf3][0xba][0x9e][\r]*[0xe6]8{y[0xa2][0x8d]p[0xd1][0x8c]q[0x87][0xae]M[0xe3]p/[0xb7][0x90]q[0x10]g[0x15][0x9b][0xe8][0xca][0xc][0xa1][0xb2][0xe][0xc5][0xda]K[0xd7][0xef][0xbe][0xc4][0x95][0xe2]g[0xfb][0x4][\r][0xf2]*[0xf3][0x16]O[0xab][0xcc]#[0x18][0x15][0xb5]O`T[0x15]gh[0xfc][0x91][0xdb][0xec]"w[0x19][0x9d][0x91][0x82][0xee]Vo]{:[0x98]{e[0x1d][0xb3]*[0xaf][0xb3][0xc][0xa1][0xd6],[0x8a]O[0xce]t?[0xc9]mx[0x93][0xcf][0xfe][0x8f][0x11][0x1a][0xbf][0x86][0xec]![0xb8][0x7][0xc3][0x7][0x99][0xc7][0x93]f[0xc0][0x9b][0x98]u[0x89]15n[0x5][0xb1][0x1a]s[0x1e][0xb3]Cw[0xe8]^0[0x15][0xa6][0xc1][0xaf][0x87][0xbb]z[0x18]Fj[0x88][0xea][0xaf]!7[0xfb]O[0xcc]/[0xf1][0x4][0xfe][0x3]||[0xa1]v[0x17]C[0x83]B[0xc6][0xd5][0xfb][0xec][0xd0]~[0x91][\r]]y[0xcc]Q[0x8a],[0xda]A1Z$[0xf7]2[0x8b][0x11][0xb3]B[0x9e][0x95][\n]"
+Ñ02:40:51.597 [Test worker] DEBUG org.apache.http.wire --  << "i[0xd0]q![0x88]R[0xff]R7?[0xab][0xf1]"[0xdc]L[0xae][0xd1]r[0xad][0xce][0x89]l[0xc4][0x1d][0x99][0x18][0xcb][0xc7][0xbb][0x1a]B:n[0x9b]1[0xe7]b[0xcc][0xf1][0xc3]'8p[0x81][0xb3][0x8e]}_[0x9b][0xd0][0xac][0xbd]<F[0xca],[0xaf]e[0x6][0x92][0xee]NqW[0xb6][0xbf][0xc5][0xbf][0xff][0x0][0x82][0xa7][0x86][0xc7][0x80][0x3][0x0][0x0]"
+†02:40:51.597 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+∞02:40:51.600 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7af5ce66
+Ü02:40:51.600 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 351
+Connection: keep-alive
+%Date: Sun, 30 Jun 2024 23:40:51 GMT
+Server: nginx
+2x-mbx-uuid: a8da67db-313e-4150-8b4d-f8fda233f512
+x-mbx-used-weight: 26
+x-mbx-used-weight-1m: 26
+content-encoding: gzip
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 a64b49e5551565c12c7314b5e4419ba4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: Nh-1X57OlMG7-XaSVAbhSLXg0QUNE6lAWAod-Xa6ZCiiXeS6ij9HFQ==
+
+[
+    [
+        1719774000000,
+        "62055.30000000",
+        "62100.00000000",
+        "61892.00000000",
+        "62026.83000000",
+        "585.15229000",
+        1719777599999,
+        "36281423.06593320",
+        41494,
+        "315.93242000",
+        "19587665.40476210",
+        "0"
+    ],
+    [
+        1719777600000,
+        "62026.83000000",
+        "62412.42000000",
+        "61980.92000000",
+        "61990.01000000",
+        "1400.34505000",
+        1719781199999,
+        "87143456.28880380",
+        98546,
+        "675.30737000",
+        "42018474.39699880",
+        "0"
+    ],
+    [
+        1719781200000,
+        "61990.00000000",
+        "62014.00000000",
+        "61835.20000000",
+        "61940.01000000",
+        "480.99924000",
+        1719784799999,
+        "29793172.17913410",
+        28850,
+        "210.46123000",
+        "13035129.79427810",
+        "0"
+    ],
+    [
+        1719784800000,
+        "61940.00000000",
+        "62952.20000000",
+        "61940.00000000",
+        "62901.01000000",
+        "2054.44523000",
+        1719788399999,
+        "128767000.74474110",
+        141564,
+        "1159.11726000",
+        "72612093.42427030",
+        "0"
+    ],
+    [
+        1719788400000,
+        "62901.00000000",
+        "63058.76000000",
+        "62825.01000000",
+        "62916.20000000",
+        "682.44325000",
+        1719791999999,
+        "42954923.23472900",
+        42067,
+        "359.71162000",
+        "22643334.33048330",
+        "0"
+    ]
+]
+”[–°–≤–µ—á–∞ –Ω–æ–º–µ—Ä 1, –ú–∞–∫—Å. —Ü–µ–Ω–∞ 62100.00000000, –ú–∏–Ω. —Ü–µ–Ω–∞ 61892.00000000, –°–≤–µ—á–∞ –Ω–æ–º–µ—Ä 2, –ú–∞–∫—Å. —Ü–µ–Ω–∞ 62412.42000000, –ú–∏–Ω. —Ü–µ–Ω–∞ 61980.92000000, –°–≤–µ—á–∞ –Ω–æ–º–µ—Ä 3, –ú–∞–∫—Å. —Ü–µ–Ω–∞ 62014.00000000, –ú–∏–Ω. —Ü–µ–Ω–∞ 61835.20000000, –°–≤–µ—á–∞ –Ω–æ–º–µ—Ä 4, –ú–∞–∫—Å. —Ü–µ–Ω–∞ 62952.20000000, –ú–∏–Ω. —Ü–µ–Ω–∞ 61940.00000000, –°–≤–µ—á–∞ –Ω–æ–º–µ—Ä 5, –ú–∞–∫—Å. —Ü–µ–Ω–∞ 63058.76000000, –ú–∏–Ω. —Ü–µ–Ω–∞ 62825.01000000]
+
+l02:40:51.792 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.4
+
+â02:40:52.400 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:65326<->108.156.18.84:443 closed
+
+â02:40:52.402 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:65325<->108.156.18.84:443 closed
+
+ô02:40:52.446 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 03:28:42 01/07/2024 MSK)
+
+ß02:40:52.448 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.126 in cache (valid until 00:00:53 02/07/2024 MSK)
+
+ë02:40:52.450 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+
+Å02:40:52.543 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.126 found in cache
+
+≈02:40:52.545 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\lebed\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+
+t02:40:52.570 [Test worker] DEBUG com.codeborne.selenide.impl.CiReportUrl -- Variable selenide.reportsUrl not found
+
+≈02:40:52.789 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.Photographer: com.codeborne.selenide.impl.WebdriverPhotographer
+
+Õ02:40:52.796 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.PageSourceExtractor: com.codeborne.selenide.impl.WebPageSourceExtractor
+
+»02:40:52.829 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.PageObjectFactory: com.codeborne.selenide.impl.SelenidePageFactory
+
+»02:40:52.888 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.WebElementSelector: com.codeborne.selenide.impl.WebElementSelector
+
+Ã02:40:52.894 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.ElementDescriber: com.codeborne.selenide.impl.SelenideElementDescriber
+
+®02:40:53.033 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer -- No webdriver is bound to current thread: 1 - let's create a new webdriver
+
+´02:40:53.112 [Test worker] DEBUG com.codeborne.selenide.drivercommands.CreateDriverCommand -- Creating webdriver in thread 1 (ip: 192.168.1.71, host: DESKTOP-KKERF7V)...
+
+º02:40:53.116 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Creating folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1
+
+f02:40:53.120 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser=chrome
+
+l02:40:53.120 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser.version=null
+
+c02:40:53.121 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- remote=null
+
+m02:40:53.121 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browserSize=1920x1080
+
+«02:40:53.121 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1
+
+¯02:40:53.190 [Test worker] DEBUG com.codeborne.selenide.webdriver.AbstractChromiumDriverFactory -- Using chromium preferences: {credentials_enable_service=false, safebrowsing.enabled=true, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false, download.default_directory=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1}
+
+∆
+02:40:53.191 [Test worker] DEBUG com.codeborne.selenide.webdriver.ChromeDriverFactory -- Chrome options: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --remote-allow-origins=*, --disable-background-networ..., --enable-features=NetworkSe..., --disable-background-timer-..., --disable-backgrounding-occ..., --disable-breakpad, --disable-client-side-phish..., --disable-component-extensi..., --disable-default-apps, --disable-features=TranslateUI, --disable-hang-monitor, --disable-ipc-flooding-prot..., --disable-popup-blocking, --disable-prompt-on-repost, --disable-renderer-backgrou..., --disable-sync, --force-color-profile=srgb, --metrics-recording-only, --no-first-run, --password-store=basic, --use-mock-keychain, --hide-scrollbars, --mute-audio, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\lebed\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}
+
+ê02:40:57.206 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- BrowserName=chrome Version=126.0.6478.63 Platform=windows
+
+h02:40:57.206 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenide v. 7.3.3
+
+è02:40:57.207 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+
+¬02:40:57.207 [Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand -- Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (7a1bd4040557c43ceb521d4595215bbf), downloadsFolder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1
+
+Á02:40:57.214 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (7a1bd4040557c43ceb521d4595215bbf), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1] in 1 [size=1]
+
+~02:40:57.236 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Add shutdown hook in 1 [size=1]
+
+∂02:41:02.262 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.commands.Clear: com.codeborne.selenide.commands.Clear
+
+Ã02:41:02.394 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.DownloadFileToFolder: com.codeborne.selenide.impl.DownloadFileToFolder
+
+ 02:41:02.399 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.DownloadFileWithCdp: com.codeborne.selenide.impl.DownloadFileWithCdp
+
+º02:41:02.418 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.commands.Commands: com.codeborne.selenide.commands.Commands
+
+Õ02:41:04.308 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.impl.ElementCommunicator: com.codeborne.selenide.impl.WebElementCommunicator
+
+ƒ02:41:13.226 [Test worker] DEBUG com.codeborne.selenide.impl.Plugins -- Using default implementation of com.codeborne.selenide.ex.ErrorFormatter: com.codeborne.selenide.ex.SelenideErrorFormatter
+
+¡02:41:18.035 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Deleted empty folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1
+
+π02:41:18.035 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Close webdriver: 1 -> ChromeDriver: chrome on windows (7a1bd4040557c43ceb521d4595215bbf)...
+
+z02:41:18.245 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Closed webdriver 1 in 210 ms
+
+Õ02:41:18.248 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790853113_22644_1] in 1 [size=0]
+l02:41:18.260 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.4
+ô02:41:18.269 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 03:28:42 01/07/2024 MSK)
+ß02:41:18.270 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.126 in cache (valid until 00:00:53 02/07/2024 MSK)
+ë02:41:18.270 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+Å02:41:18.281 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.126 found in cache
+≈02:41:18.282 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\lebed\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+®02:41:18.283 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer -- No webdriver is bound to current thread: 1 - let's create a new webdriver
+´02:41:18.283 [Test worker] DEBUG com.codeborne.selenide.drivercommands.CreateDriverCommand -- Creating webdriver in thread 1 (ip: 192.168.1.71, host: DESKTOP-KKERF7V)...
+º02:41:18.283 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Creating folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1
+f02:41:18.284 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser=chrome
+l02:41:18.284 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser.version=null
+c02:41:18.284 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- remote=null
+m02:41:18.284 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browserSize=1920x1080
+«02:41:18.284 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1
+¯02:41:18.285 [Test worker] DEBUG com.codeborne.selenide.webdriver.AbstractChromiumDriverFactory -- Using chromium preferences: {credentials_enable_service=false, safebrowsing.enabled=true, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false, download.default_directory=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1}
+∆
+02:41:18.285 [Test worker] DEBUG com.codeborne.selenide.webdriver.ChromeDriverFactory -- Chrome options: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --remote-allow-origins=*, --disable-background-networ..., --enable-features=NetworkSe..., --disable-background-timer-..., --disable-backgrounding-occ..., --disable-breakpad, --disable-client-side-phish..., --disable-component-extensi..., --disable-default-apps, --disable-features=TranslateUI, --disable-hang-monitor, --disable-ipc-flooding-prot..., --disable-popup-blocking, --disable-prompt-on-repost, --disable-renderer-backgrou..., --disable-sync, --force-color-profile=srgb, --metrics-recording-only, --no-first-run, --password-store=basic, --use-mock-keychain, --hide-scrollbars, --mute-audio, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\lebed\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}
+ê02:41:19.294 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- BrowserName=chrome Version=126.0.6478.63 Platform=windows
+h02:41:19.294 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenide v. 7.3.3
+è02:41:19.294 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+¬02:41:19.294 [Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand -- Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (78a51cbcff42f686b68ef8e76adb2d31), downloadsFolder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1
+Á02:41:19.295 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (78a51cbcff42f686b68ef8e76adb2d31), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1] in 1 [size=1]
+BB $0.4728
+ZK $0.1781
+LISTA $0.7203
+NOT $0.01458
+TAO $273.40
+ZRO $3.45
+
+IO $3.39
+REZ $0.0867
+OMNI $14.55
+SAGA $1.35
+¡02:41:35.346 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Deleted empty folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1
+π02:41:35.346 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Close webdriver: 1 -> ChromeDriver: chrome on windows (78a51cbcff42f686b68ef8e76adb2d31)...
+z02:41:35.757 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Closed webdriver 1 in 411 ms
+Õ02:41:35.757 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790878283_22644_1] in 1 [size=0]
+l02:41:35.786 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.4
+ô02:41:35.813 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 03:28:42 01/07/2024 MSK)
+ß02:41:35.814 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.126 in cache (valid until 00:00:53 02/07/2024 MSK)
+ë02:41:35.815 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+Å02:41:35.851 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.126 found in cache
+≈02:41:35.853 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\lebed\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+®02:41:35.855 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer -- No webdriver is bound to current thread: 1 - let's create a new webdriver
+´02:41:35.855 [Test worker] DEBUG com.codeborne.selenide.drivercommands.CreateDriverCommand -- Creating webdriver in thread 1 (ip: 192.168.1.71, host: DESKTOP-KKERF7V)...
+º02:41:35.856 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Creating folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1
+f02:41:35.858 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser=chrome
+l02:41:35.858 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser.version=null
+c02:41:35.858 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- remote=null
+m02:41:35.858 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browserSize=1920x1080
+«02:41:35.858 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1
+¯02:41:35.862 [Test worker] DEBUG com.codeborne.selenide.webdriver.AbstractChromiumDriverFactory -- Using chromium preferences: {credentials_enable_service=false, safebrowsing.enabled=true, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false, download.default_directory=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1}
+∆
+02:41:35.864 [Test worker] DEBUG com.codeborne.selenide.webdriver.ChromeDriverFactory -- Chrome options: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --remote-allow-origins=*, --disable-background-networ..., --enable-features=NetworkSe..., --disable-background-timer-..., --disable-backgrounding-occ..., --disable-breakpad, --disable-client-side-phish..., --disable-component-extensi..., --disable-default-apps, --disable-features=TranslateUI, --disable-hang-monitor, --disable-ipc-flooding-prot..., --disable-popup-blocking, --disable-prompt-on-repost, --disable-renderer-backgrou..., --disable-sync, --force-color-profile=srgb, --metrics-recording-only, --no-first-run, --password-store=basic, --use-mock-keychain, --hide-scrollbars, --mute-audio, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\lebed\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}
+ê02:41:37.638 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- BrowserName=chrome Version=126.0.6478.63 Platform=windows
+h02:41:37.639 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenide v. 7.3.3
+è02:41:37.639 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+¬02:41:37.639 [Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand -- Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (818daa113bfab3531b572a1b0d0d5634), downloadsFolder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1
+Á02:41:37.639 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (818daa113bfab3531b572a1b0d0d5634), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1] in 1 [size=1]
+¡02:42:18.708 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Deleted empty folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1
+π02:42:18.708 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Close webdriver: 1 -> ChromeDriver: chrome on windows (818daa113bfab3531b572a1b0d0d5634)...
+z02:42:18.911 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Closed webdriver 1 in 203 ms
+Õ02:42:18.911 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790895855_22644_1] in 1 [size=0]
+l02:42:18.919 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.4
+ô02:42:18.927 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 03:28:42 01/07/2024 MSK)
+ß02:42:18.928 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.126 in cache (valid until 00:00:53 02/07/2024 MSK)
+ë02:42:18.928 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+Å02:42:18.937 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.126 found in cache
+≈02:42:18.938 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\lebed\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+®02:42:18.939 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer -- No webdriver is bound to current thread: 1 - let's create a new webdriver
+´02:42:18.939 [Test worker] DEBUG com.codeborne.selenide.drivercommands.CreateDriverCommand -- Creating webdriver in thread 1 (ip: 192.168.1.71, host: DESKTOP-KKERF7V)...
+º02:42:18.939 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Creating folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1
+f02:42:18.940 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser=chrome
+l02:42:18.940 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser.version=null
+c02:42:18.940 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- remote=null
+m02:42:18.940 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browserSize=1920x1080
+«02:42:18.940 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1
+¯02:42:18.941 [Test worker] DEBUG com.codeborne.selenide.webdriver.AbstractChromiumDriverFactory -- Using chromium preferences: {credentials_enable_service=false, safebrowsing.enabled=true, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false, download.default_directory=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1}
+∆
+02:42:18.941 [Test worker] DEBUG com.codeborne.selenide.webdriver.ChromeDriverFactory -- Chrome options: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --remote-allow-origins=*, --disable-background-networ..., --enable-features=NetworkSe..., --disable-background-timer-..., --disable-backgrounding-occ..., --disable-breakpad, --disable-client-side-phish..., --disable-component-extensi..., --disable-default-apps, --disable-features=TranslateUI, --disable-hang-monitor, --disable-ipc-flooding-prot..., --disable-popup-blocking, --disable-prompt-on-repost, --disable-renderer-backgrou..., --disable-sync, --force-color-profile=srgb, --metrics-recording-only, --no-first-run, --password-store=basic, --use-mock-keychain, --hide-scrollbars, --mute-audio, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\lebed\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}
+ê02:42:20.062 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- BrowserName=chrome Version=126.0.6478.63 Platform=windows
+h02:42:20.063 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenide v. 7.3.3
+è02:42:20.063 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+¬02:42:20.063 [Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand -- Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (c43fe24ec9927c31ee74f345923c0c68), downloadsFolder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1
+Á02:42:20.063 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (c43fe24ec9927c31ee74f345923c0c68), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1] in 1 [size=1]
+¡02:42:48.141 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Deleted empty folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1
+π02:42:48.141 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Close webdriver: 1 -> ChromeDriver: chrome on windows (c43fe24ec9927c31ee74f345923c0c68)...
+z02:42:48.345 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Closed webdriver 1 in 204 ms
+Õ02:42:48.345 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790938939_22644_1] in 1 [size=0]
+l02:42:48.355 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.6.4
+ô02:42:48.363 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=126 in cache (valid until 03:28:42 01/07/2024 MSK)
+ß02:42:48.364 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome126=126.0.6478.126 in cache (valid until 00:00:53 02/07/2024 MSK)
+ë02:42:48.364 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 126.0.6478.126 (resolved driver for Chrome 126)
+Å02:42:48.375 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 126.0.6478.126 found in cache
+≈02:42:48.376 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\lebed\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe
+®02:42:48.377 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer -- No webdriver is bound to current thread: 1 - let's create a new webdriver
+´02:42:48.377 [Test worker] DEBUG com.codeborne.selenide.drivercommands.CreateDriverCommand -- Creating webdriver in thread 1 (ip: 192.168.1.71, host: DESKTOP-KKERF7V)...
+º02:42:48.378 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Creating folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1
+f02:42:48.379 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser=chrome
+l02:42:48.379 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browser.version=null
+c02:42:48.379 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- remote=null
+m02:42:48.379 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- browserSize=1920x1080
+«02:42:48.379 [Test worker] DEBUG com.codeborne.selenide.webdriver.WebDriverFactory -- downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1
+¯02:42:48.379 [Test worker] DEBUG com.codeborne.selenide.webdriver.AbstractChromiumDriverFactory -- Using chromium preferences: {credentials_enable_service=false, safebrowsing.enabled=true, plugins.always_open_pdf_externally=true, profile.default_content_setting_values.automatic_downloads=1, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false, download.default_directory=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1}
+∆
+02:42:48.380 [Test worker] DEBUG com.codeborne.selenide.webdriver.ChromeDriverFactory -- Chrome options: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --remote-allow-origins=*, --disable-background-networ..., --enable-features=NetworkSe..., --disable-background-timer-..., --disable-backgrounding-occ..., --disable-breakpad, --disable-client-side-phish..., --disable-component-extensi..., --disable-default-apps, --disable-features=TranslateUI, --disable-hang-monitor, --disable-ipc-flooding-prot..., --disable-popup-blocking, --disable-prompt-on-repost, --disable-renderer-backgrou..., --disable-sync, --force-color-profile=srgb, --metrics-recording-only, --no-first-run, --password-store=basic, --use-mock-keychain, --hide-scrollbars, --mute-audio, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\lebed\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, profile.password_manager_enabled: false, profile.password_manager_leak_detection: false, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}
+ê02:42:49.368 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- BrowserName=chrome Version=126.0.6478.63 Platform=windows
+h02:42:49.368 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenide v. 7.3.3
+è02:42:49.368 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory -- Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+¬02:42:49.368 [Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand -- Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (52a312253fba4ccb77f86bec837f6196), downloadsFolder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1
+Á02:42:49.368 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (52a312253fba4ccb77f86bec837f6196), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1] in 1 [size=1]
+¡02:43:01.928 [Test worker] INFO com.codeborne.selenide.impl.FileHelper -- Deleted empty folder: C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1
+π02:43:01.928 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Close webdriver: 1 -> ChromeDriver: chrome on windows (52a312253fba4ccb77f86bec837f6196)...
+z02:43:02.255 [Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand -- Closed webdriver 1 in 327 ms
+Õ02:43:02.255 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry -- Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\lebed\IdeaProjects\binance_selenium_test_project\build\downloads\1719790968377_22644_1] in 1 [size=0]

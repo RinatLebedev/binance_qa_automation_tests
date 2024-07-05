@@ -1,0 +1,15 @@
+commit 5eaeb738617a8467d57b0fff328d7e872f224596
+tree eefdd6fe1e9114a51f8dd79d0495cf4faad8f93b
+parent c95a61dee90c2c2aa7f7f68f1b5d2f0f9b191c92
+author rinatleb <lebedev_rinat@mail.ru> 2024-07-05 14:36:31 +0300
+committer rinatleb <lebedev_rinat@mail.ru> 2024-07-05 14:36:31 +0300
+
+    edit basetest
+
+
+:100644 100644 81ef30c550cdfd806f3e5491bcd17a43ef3601af 0f09341df21487a3ad8b835f9f6014eb24c3ef17 M	.gitignore
+:100644 100644 69dbb34e0a09d317c1b0e36941a8cd86af61e558 7fa3dbf406e37cd822e30ea23c094c7ba35e75f0 M	src/test/java/Base/BaseTest.java
+:100644 100644 cecc9436790f47534705dce026bc205a03a833f7 23deef0b7aa83b591f0a3462f7570da32cec26af M	work/jenkins/copy_reference_file.log
+:100644 100644 8ef34888ba1f80ce14ed882fad2b79abac674056 c147f146d10a2e3d2678dd05dde091374c03f549 M	work/jenkins/jobs/docker-example/config.xml
+:100644 100644 af26878843972ac35953a33b426915e912ac346d ee39bde97d80422eb8d06290900318cb4973dc6e M	work/jenkins/logs/health-checker.log
+:100644 100644 0038a5c6264ecb30ab4e2dc485ae0290909fa2f1 e46ef4fee2dd9242f208ec2259194219cd6d0002 M	work/jenkins/queue.xml.bak

@@ -1,0 +1,90 @@
+Started by user [8mha:////4K5pVvMcFx99iBXpbxWXc60cqhNQJC9JxyYVmNjmdHMCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/docker-example
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/RinatLebedev/binance_qa_automation_tests.git
+ > git init /var/jenkins_home/workspace/docker-example # timeout=10
+Fetching upstream changes from https://github.com/RinatLebedev/binance_qa_automation_tests.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/RinatLebedev/binance_qa_automation_tests.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/RinatLebedev/binance_qa_automation_tests.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/compose^{commit} # timeout=10
+Checking out Revision d10757db5ed7c4841c3c97ac46c771801ee7612b (refs/remotes/origin/compose)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d10757db5ed7c4841c3c97ac46c771801ee7612b # timeout=10
+Commit message: "edit basetest"
+ > git rev-list --no-walk 404289e3e93ed0ec44dab151b6b4a8e65563ed0b # timeout=10
+[docker-example] $ /bin/sh -xe /tmp/jenkins16729901826585358982.sh
++ ./gradlew -x test uiTests
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava NO-SOURCE
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :uiTests
+
+BinanceTest > testCase_1() FAILED
+    org.openqa.selenium.SessionNotCreatedException at BinanceTest.java:30
+        Caused by: java.io.UncheckedIOException at BinanceTest.java:30
+            Caused by: java.net.ConnectException at null:-1
+                Caused by: java.nio.channels.ClosedChannelException at null:-1
+
+BinanceTest > testCase_2() FAILED
+    org.openqa.selenium.SessionNotCreatedException at BinanceTest.java:48
+        Caused by: java.io.UncheckedIOException at BinanceTest.java:48
+            Caused by: java.net.ConnectException at null:-1
+                Caused by: java.nio.channels.ClosedChannelException at null:-1
+
+BinanceTest > testCase_3() FAILED
+    org.openqa.selenium.SessionNotCreatedException at BinanceTest.java:77
+        Caused by: java.io.UncheckedIOException at BinanceTest.java:77
+            Caused by: java.net.ConnectException at null:-1
+                Caused by: java.nio.channels.ClosedChannelException at null:-1
+
+BinanceTest > testCase_4() FAILED
+    org.openqa.selenium.SessionNotCreatedException at BinanceTest.java:102
+        Caused by: java.io.UncheckedIOException at BinanceTest.java:102
+            Caused by: java.net.ConnectException at null:-1
+                Caused by: java.nio.channels.ClosedChannelException at null:-1
+
+BinanceTest > testCase_5() FAILED
+    org.openqa.selenium.SessionNotCreatedException at BinanceTest.java:131
+        Caused by: java.io.UncheckedIOException at BinanceTest.java:131
+            Caused by: java.net.ConnectException at null:-1
+                Caused by: java.nio.channels.ClosedChannelException at null:-1
+
+5 tests completed, 5 failed
+
+> Task :uiTests FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':uiTests'.
+> There were failing tests. See the report at: file:///var/jenkins_home/workspace/docker-example/build/reports/tests/uiTests/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 3m 17s
+3 actionable tasks: 3 executed
+Build step 'Execute shell' marked build as failure
+[docker-example] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure_jenkins/bin/allure generate /var/jenkins_home/workspace/docker-example/BUILD/ALLURE-RESULTS -c -o /var/jenkins_home/workspace/docker-example/allure-report
+Report successfully generated to /var/jenkins_home/workspace/docker-example/allure-report
+Allure report was successfully generated.
+Creating artifact for the build.
+Artifact was added to the build.
+Finished: FAILURE

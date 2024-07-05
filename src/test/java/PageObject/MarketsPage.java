@@ -8,7 +8,7 @@ import io.qameta.allure.Step;
 import static com.codeborne.selenide.Selenide.*;
 
 public class MarketsPage extends BasePage {
-    public static SelenideElement MARKET_SECTOR_FAVORITE_BUTTON_XPATH = $x("//div[@id = 'market_sector_Favorite']/a"),
+    public static SelenideElement MARKET_SECTOR_FAVORITE_BUTTON_XPATH = $x("//div[@class= 'css-19kh8e3']/a[1]"),
             ADD_TO_MARKET_SECTOR_FAVORITE_BUTTON_XPATH = $x("//button[@data-bn-type = 'button']"),
             GET_BEFORE_SLASH_CRYPTO_NAME = $x("//div[contains(@class, 'subtitle2-1 mobile:subtitle3')]"),
             FIRST_CRYPTOCURRENCY_LINK_XPATH = $x("//div[@class = 'tab__column css-hq3o44']//div[contains(@class, 'subtitle3')]"),

@@ -1,0 +1,933 @@
+19:14:03.346 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://testnet.binance.vision:443
+ˆ19:14:03.447 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to testnet.binance.vision:443
+z19:14:04.047 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x19:14:04.051 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+19:14:04.052 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+19:14:04.053 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p19:14:04.053 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+‚19:14:04.053 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/ping HTTP/1.1
+b19:14:04.054 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/ping HTTP/1.1[\r][\n]"
+g19:14:04.057 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T19:14:04.057 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+e19:14:04.057 [Test worker] DEBUG org.apache.http.wire --  >> "Host: testnet.binance.vision[\r][\n]"
+_19:14:04.057 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w19:14:04.058 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f19:14:04.058 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I19:14:04.058 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+Z19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/ping HTTP/1.1
+_19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+]19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> Host: testnet.binance.vision
+W19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^19:14:04.058 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X19:14:04.341 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u19:14:04.349 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+Z19:14:04.349 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 2[\r][\n]"
+_19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "Date: Fri, 05 Jul 2024 16:14:04 GMT[\r][\n]"
+V19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: ad5619f8-568f-4350-86a8-15aa0223fe12[\r][\n]"
+]19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 1[\r][\n]"
+`19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 1[\r][\n]"
+‡19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d19:14:04.350 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g19:14:04.351 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y19:14:04.352 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f19:14:04.352 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+Ž19:14:04.352 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 abe7c423e3f506d9a86c5f57fbc5a762.cloudfront.net (CloudFront)[\r][\n]"
+_19:14:04.352 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: ARN56-P1[\r][\n]"
+Ž19:14:04.352 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: N6XbZFfUsMLoGWr_XEvbmj3QvNiyFLqHUU-g8zep9mVUNG56v7J0ZQ==[\r][\n]"
+I19:14:04.352 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{19:14:04.355 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+R19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 2
+W19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << Date: Fri, 05 Jul 2024 16:14:04 GMT
+N19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: ad5619f8-568f-4350-86a8-15aa0223fe12
+U19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 1
+X19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 1
+19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`19:14:04.356 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+†19:14:04.357 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 abe7c423e3f506d9a86c5f57fbc5a762.cloudfront.net (CloudFront)
+W19:14:04.358 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: ARN56-P1
+†19:14:04.358 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: N6XbZFfUsMLoGWr_XEvbmj3QvNiyFLqHUU-g8zep9mVUNG56v7J0ZQ==
+}19:14:04.369 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+ˆ19:14:04.384 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+ 19:14:04.385 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+C19:14:04.695 [Test worker] DEBUG org.apache.http.wire --  << "{}"
+°19:14:04.696 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4b74a67a
+†19:14:04.697 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 2
+Connection: keep-alive
+%Date: Fri, 05 Jul 2024 16:14:04 GMT
+Server: nginx
+2x-mbx-uuid: ad5619f8-568f-4350-86a8-15aa0223fe12
+x-mbx-used-weight: 1
+x-mbx-used-weight-1m: 1
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 abe7c423e3f506d9a86c5f57fbc5a762.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ARN56-P1
+GX-Amz-Cf-Id: N6XbZFfUsMLoGWr_XEvbmj3QvNiyFLqHUU-g8zep9mVUNG56v7J0ZQ==
+
+{
+    
+}
+19:14:04.830 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://testnet.binance.vision:443
+ˆ19:14:04.830 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to testnet.binance.vision:443
+z19:14:04.936 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x19:14:04.936 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+19:14:04.936 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+19:14:04.936 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p19:14:04.936 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+‚19:14:04.936 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/time HTTP/1.1
+b19:14:04.936 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/time HTTP/1.1[\r][\n]"
+g19:14:04.936 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T19:14:04.936 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+e19:14:04.936 [Test worker] DEBUG org.apache.http.wire --  >> "Host: testnet.binance.vision[\r][\n]"
+_19:14:04.936 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w19:14:04.936 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f19:14:04.937 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I19:14:04.937 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+Z19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/time HTTP/1.1
+_19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+]19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> Host: testnet.binance.vision
+W19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^19:14:04.937 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X19:14:05.223 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u19:14:05.223 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[19:14:05.223 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 28[\r][\n]"
+_19:14:05.223 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l19:14:05.224 [Test worker] DEBUG org.apache.http.wire --  << "Date: Fri, 05 Jul 2024 16:14:05 GMT[\r][\n]"
+V19:14:05.224 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y19:14:05.224 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: 662ad2d2-4cdd-4c52-abf0-8a1df52e6de7[\r][\n]"
+]19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 2[\r][\n]"
+`19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 2[\r][\n]"
+‡19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f19:14:05.225 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+Ž19:14:05.226 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 59202edf772149f3e7805f2a4994d252.cloudfront.net (CloudFront)[\r][\n]"
+_19:14:05.226 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: ARN56-P1[\r][\n]"
+Ž19:14:05.226 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: j6cH1v1HcIRN6-OAHTbKmgmh2oTPvVeVI_NnGY6GDPuoFmd7sYjI-g==[\r][\n]"
+I19:14:05.226 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{19:14:05.226 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P19:14:05.226 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m19:14:05.226 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+S19:14:05.226 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 28
+W19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << Date: Fri, 05 Jul 2024 16:14:05 GMT
+N19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: 662ad2d2-4cdd-4c52-abf0-8a1df52e6de7
+U19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 2
+X19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 2
+19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s19:14:05.227 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+†19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 59202edf772149f3e7805f2a4994d252.cloudfront.net (CloudFront)
+W19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: ARN56-P1
+†19:14:05.228 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: j6cH1v1HcIRN6-OAHTbKmgmh2oTPvVeVI_NnGY6GDPuoFmd7sYjI-g==
+}19:14:05.228 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+ˆ19:14:05.228 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+ 19:14:05.229 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]19:14:05.234 [Test worker] DEBUG org.apache.http.wire --  << "{"serverTime":1720196045333}"
+°19:14:05.235 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@61d24347
+†19:14:05.235 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 28
+Connection: keep-alive
+%Date: Fri, 05 Jul 2024 16:14:05 GMT
+Server: nginx
+2x-mbx-uuid: 662ad2d2-4cdd-4c52-abf0-8a1df52e6de7
+x-mbx-used-weight: 2
+x-mbx-used-weight-1m: 2
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 59202edf772149f3e7805f2a4994d252.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ARN56-P1
+GX-Amz-Cf-Id: j6cH1v1HcIRN6-OAHTbKmgmh2oTPvVeVI_NnGY6GDPuoFmd7sYjI-g==
+
+{
+     "serverTime": 1720196045333
+}
+‹19:14:05.822 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Connection 0.0.0.0:54641<->108.157.214.100:443 closed
+1720196045333
+–19:14:08.265 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+19:14:08.287 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z19:14:08.404 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x19:14:08.404 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+19:14:08.404 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+19:14:08.405 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p19:14:08.405 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+™19:14:08.405 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/exchangeInfo?symbol=BTCUSDT HTTP/1.1
+y19:14:08.405 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/exchangeInfo?symbol=BTCUSDT HTTP/1.1[\r][\n]"
+g19:14:08.405 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T19:14:08.406 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^19:14:08.406 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_19:14:08.406 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w19:14:08.406 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f19:14:08.407 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I19:14:08.407 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+q19:14:08.407 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/exchangeInfo?symbol=BTCUSDT HTTP/1.1
+_19:14:08.407 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L19:14:08.407 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V19:14:08.407 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W19:14:08.408 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o19:14:08.408 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^19:14:08.408 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X19:14:08.698 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u19:14:08.699 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+\19:14:08.699 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 876[\r][\n]"
+_19:14:08.699 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l19:14:08.700 [Test worker] DEBUG org.apache.http.wire --  << "Date: Fri, 05 Jul 2024 16:14:08 GMT[\r][\n]"
+V19:14:08.700 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y19:14:08.700 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: ea832c50-ac76-4984-a4a7-b04b5f8a0ba7[\r][\n]"
+^19:14:08.700 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 20[\r][\n]"
+a19:14:08.701 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 20[\r][\n]"
+_19:14:08.701 [Test worker] DEBUG org.apache.http.wire --  << "content-encoding: gzip[\r][\n]"
+‡19:14:08.701 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d19:14:08.701 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h19:14:08.701 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h19:14:08.702 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t19:14:08.702 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v19:14:08.702 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i19:14:08.702 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{19:14:08.702 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y19:14:08.702 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S19:14:08.703 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g19:14:08.703 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y19:14:08.703 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f19:14:08.703 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+Ž19:14:08.703 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 15f101bbbd2c0af1fa1038ce000605c6.cloudfront.net (CloudFront)[\r][\n]"
+_19:14:08.704 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+Ž19:14:08.704 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: 2_OiVxMNqaESaznnxnSE_uFMgutXJcuBr69YAdtT0sQUR3jE6RrYpg==[\r][\n]"
+I19:14:08.704 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{19:14:08.704 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+T19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 876
+W19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << Date: Fri, 05 Jul 2024 16:14:08 GMT
+N19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: ea832c50-ac76-4984-a4a7-b04b5f8a0ba7
+V19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 20
+Y19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 20
+W19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << content-encoding: gzip
+19:14:08.705 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q19:14:08.706 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+†19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 15f101bbbd2c0af1fa1038ce000605c6.cloudfront.net (CloudFront)
+W19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+†19:14:08.707 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: 2_OiVxMNqaESaznnxnSE_uFMgutXJcuBr69YAdtT0sQUR3jE6RrYpg==
+}19:14:08.713 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+ˆ19:14:08.713 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+ô19:14:08.715 [Test worker] DEBUG org.apache.http.wire --  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0x8d]U[0xdb]n[0xa3]0[0x10][0xfd][0x97]yF[0x95][0xa1][0x9b]Ky#[0x81]fQ[0x3][0xa4][0xe0]ho[0x8a][0x90]C[0xdc][0xac]U[0xc0],8i[0xd2][0xaa][0xff][0xbe]2[0x90][0x8b]I[0xa2][0xdd]'[0x98][0xe3]93g[0xec][0xf1][0xf8][0x3][0x4][0xcb][0xe8];[0xcf])[0x98]0[0xc7]c[0xd0][0xa0][0xa2][0xe5][0x96][0x96][0x98]e[0x14]L}` [0xfd][0xa1][0x8f][0xbe][0xc][0x87]h[0xa0]AI[0x4][0x9d][0xb2][0x8c][0x89][\n]"
+ã19:14:08.715 [Test worker] DEBUG org.apache.http.wire --  << "[0xcc]_[0x1f]'[0x13][0xef][0xb][0xc9][0xf][0x9d][0xe7][0xb9][0x13][0xe1][0xf8][0x9b][0xe3]N[0xbe]b[0xd0][0x80][0xe5][0x82][0x96][[0x92][0x82][0x9][0x9e][0xeb][0xcf][0xb1]s[0x86][0xf9][0x9b][0xc]L][0x83]T[0x6][0x0][0xb3][0x8f][0x10][0xfa][0xd4].c[0x6][0xa1][0xed][0x84][0x91][0x1a]+r[0xc6][0x81]o_[0xc4]B[0xc7]`[0xfa][0xff][0xc7][0xb2][0xad][0x1f][0xb7]E[0x19][0x8][0xdd][0x90][0x15]Z[0xdf][0xe2][0xb6][0xdc][0xe8][\n]"
+Q19:14:08.715 [Test worker] DEBUG org.apache.http.wire --  << "[0xed][0x9d][\n]"
+¶19:14:08.716 [Test worker] DEBUG org.apache.http.wire --  << "[0xd5]e[0xc8][0x85][0x6]t[0x97][0xfc]&[0xf9][0x9a]>[0xb2]T[0xd0]R[0xee][0xe8]B[0x83]j[0x9f]-y[0xda]lo[0xf3][0xf]&[0x8c][0xf0]x[0x1e][0xd9]rC+A[0xc4][0xa6][0x2][0x13]ph[0xd9][0xae]?[0x1][\r][0x96][0xa4][0xa2]VUQ[0xd1]8[0x9e]#[0xb3][0x92]&[0xac]b<[0x7]s[0xa8][0xc1][0x9f][\r][0x17]G[0xcf]6^[0x8d][0xdd]rSq[0x19]u[0xcc][0xb3][0x8c]U[0x12][0xba][0xc2][0xb9][0xb5][0xc8][0xcb][0x15]-[0xe5][0xb6][0xc9][0xaa]`[0xea]z[0xae][0xcc]\c[0xcf]zrB[0xd0][0xc0][0xb3][0xc2]'G[0xc2][0x11][0xe]f[0xf1]4[0x88][0xa2][0xf8][0xe0][0x88][0xad]''[0x9e][0x85][0xc1][0xa3][0x8b][l[0xa1][0x1]K[0xe8][0x92][0x96]k+M[0xf9][0x1b]][0x81])[0xca][\r][0xd5][0x80]'[0xbc][0x8b][0x88].RK[\r][0xa4][0xa4]g[0xb1][0xf7]H[0xf9]JE[0xc7][0x83]H[0x13][0x97][0x84][0xa5],_G[0x82][0x17][0x87][0x85][0x84][0xe4][0x9]MCZ[0xa4]$[0xa1][0x1d][0x12][0xab][0xa2][0x82][0xb]\[0x92][0x15][0xcb][0xbb][0xb2]X[0xe5][0x91]r[0xcd][0xf2][0xeb][0xab]/[0xc7][0xe3][0xff]h[0xff][0xdb][0x16][0x9b][0x85][0xee][0xd8][0x89][0x1f][0xdd])[0xae][0xb7](c[0xf9][0xac]d[0x89]\AwH[0xaf];[0x13]I[0x9c][0xec][0xe]x[0xb][0xde]!t\[0x15],y[0x8d][0xd8]{[0x87]%;Z[0xc9]5[\r]p[0x1c][0xb9]?[0x9d]&[0xcf][0xb3][0xd8]7[0xfe][0x8][0xd5][0x94]&K[0x83]>t[0x12]T[0x82][0x16][0xa7][0x4][0x7][0xc2]E[0x2]w[0xec][0x8c][0x9c]p[0x12][0xcf][0xac][0xb0][0xbe]0[0xc7][0x8b]z[0xe1][0xd9][0xb4]B|[[0x11][0xea]([0xd2][0x8d][0xe1][0xdd][0xa0][0xaf][0xdf][0xeb][0xfd][0xe1][0xe0][0x9a][0xa0][0xeb][0x15][0xe3][0xd0]r[0xa7][0xae]?[0x89]mg[0x8a][0xad]&[0xcb][0xe1][0xd0][0xad]%[0xdf]R[0x9b][0xa6][0x82]4S%#[0xbb]kKr:([0xbc][0x11]M[0xf9][0xdb]u[0xde][0xf9][0x92][0xd1][0xce][0x14][0xf5][0xb4][0x9d]p[0xec][0xf8]8nN}[0xf4]#[0x8e]\[[0x16][0xbf]d+o[0x93][\n]"
+Ÿ19:14:08.716 [Test worker] DEBUG org.apache.http.wire --  << "V[0xa4][0x8c][0x96][0xf3][0x2]L[0xe8]uQ[0x9b][0xbf][0xe5]u[0xb5][0x6]h@[0xaa][0xd7]+[0xfe][\n]"
+Ê19:14:08.716 [Test worker] DEBUG org.apache.http.wire --  << "[0xaa][0xfa]o[0xd7]u[0xfb]x,[0xaf][0xc0][0xec]][0xe8][0xf2][0x3][0xec][0x6][0xbe]5mv[0xc8][0xe7][0x82][0xf1][0xbc][0x9e]s[0xbd][0xf3][0xc3] E[0x91][0xee]=[0x96]c[0xde]\[0xa9]CsgdwFy[0xb8][0xec][0xcf][0x86]Hv'[0xe2][0xb]I+[0xfa]o][0x9e][0xf5]=[0xf6][0xe7]^|[0x9c][0xe9]2[0xd5]&[0xab]ovU[0xef][0xf1]M[0x8a]5[0x9d][0x4]][0x9e][0x95][0xae][0xf9][0x81][0xdb][0x93][0xd3][0xb9][0xa0]e;[0xcd][0xda][0xc9]|[0x2]"Z[0xbf][0xbf] [0x9a][0x5][0xb8][0x19]^[0x13][0xd7][0x97][0xa3]*[0xb4][0xe3]I8[0x8b][0x11][0xfa][0xa2]X=[0xc5][0xea]+[0xd6][0xc3][0xb9][0xa5]#[0xc5][0xd2][0x15][0xcb]P[0xac]{[0xc5]R[0xf2][0xe9]J>][0xc9][0xa7][0xf][0x14]k[0xa8]X[0x8a][0x16]C[0xd1]b(Z[0xc]E[0x8b][0xa1]h1[0x14]-[0x86][0xa2][0xc5]P[0xb4][0x18][0x8a][0x16]C[0xd1]b(Z[0xee][0x11],[0x16][0x1a][0xac][0xe8][0xb][0xd9][0xa4]"[0xa2][0xe9][0x8b][0x9c][0xa5][0xf2][0xe1][0xda][0xd2]\[0xb6][0x97][0xc7]W[0xf2][0x84][0x9d][0xef]37t[0x8e][0xaf][\n]"
+Ã19:14:08.716 [Test worker] DEBUG org.apache.http.wire --  << "i&[0xed][\r][0xff][0xfa]9j[0x19][0xb8]et[0x2][0xb4][0xe6]([0xc0]_a[0xf1][0xb9][0xf8][0xfc][0xb][0xf7][0xa6][0xb2]R.[0x9][0x0][0x0]"
+ 19:14:08.717 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+°19:14:08.721 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5257123d
+†19:14:08.721 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 876
+Connection: keep-alive
+%Date: Fri, 05 Jul 2024 16:14:08 GMT
+Server: nginx
+2x-mbx-uuid: ea832c50-ac76-4984-a4a7-b04b5f8a0ba7
+x-mbx-used-weight: 20
+x-mbx-used-weight-1m: 20
+content-encoding: gzip
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 15f101bbbd2c0af1fa1038ce000605c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: 2_OiVxMNqaESaznnxnSE_uFMgutXJcuBr69YAdtT0sQUR3jE6RrYpg==
+
+{
+    "timezone": "UTC",
+!    "serverTime": 1720196048807,
+    "rateLimits": [
+
+        {
+/            "rateLimitType": "REQUEST_WEIGHT",
+"            "interval": "MINUTE",
+            "intervalNum": 1,
+            "limit": 6000
+        },
+
+        {
+'            "rateLimitType": "ORDERS",
+"            "interval": "SECOND",
+            "intervalNum": 10,
+            "limit": 100
+        },
+
+        {
+'            "rateLimitType": "ORDERS",
+            "interval": "DAY",
+            "intervalNum": 1,
+            "limit": 200000
+        },
+
+        {
+-            "rateLimitType": "RAW_REQUESTS",
+"            "interval": "MINUTE",
+            "intervalNum": 5,
+            "limit": 61000
+
+        }
+    ],
+    "exchangeFilters": [
+	        
+    ],
+    "symbols": [
+
+        {
+!            "symbol": "BTCUSDT",
+!            "status": "TRADING",
+             "baseAsset": "BTC",
+%            "baseAssetPrecision": 8,
+"            "quoteAsset": "USDT",
+!            "quotePrecision": 8,
+&            "quoteAssetPrecision": 8,
+*            "baseCommissionPrecision": 8,
++            "quoteCommissionPrecision": 8,
+            "orderTypes": [
+                "LIMIT",
+                "LIMIT_MAKER",
+                "MARKET",
+#                "STOP_LOSS_LIMIT",
+$                "TAKE_PROFIT_LIMIT"
+            ],
+$            "icebergAllowed": true,
+             "ocoAllowed": true,
+             "otoAllowed": true,
+0            "quoteOrderQtyMarketAllowed": true,
+'            "allowTrailingStop": true,
+*            "cancelReplaceAllowed": true,
+*            "isSpotTradingAllowed": true,
+,            "isMarginTradingAllowed": true,
+            "filters": [
+                {
+2                    "filterType": "PRICE_FILTER",
+.                    "minPrice": "0.01000000",
+4                    "maxPrice": "1000000.00000000",
+-                    "tickSize": "0.01000000"
+                },
+                {
+.                    "filterType": "LOT_SIZE",
+,                    "minQty": "0.00001000",
+/                    "maxQty": "9000.00000000",
+-                    "stepSize": "0.00001000"
+                },
+                {
+3                    "filterType": "ICEBERG_PARTS",
+                     "limit": 10
+                },
+                {
+5                    "filterType": "MARKET_LOT_SIZE",
+,                    "minQty": "0.00000000",
+.                    "maxQty": "128.76131687",
+-                    "stepSize": "0.00000000"
+                },
+                {
+4                    "filterType": "TRAILING_DELTA",
+1                    "minTrailingAboveDelta": 10,
+3                    "maxTrailingAboveDelta": 2000,
+1                    "minTrailingBelowDelta": 10,
+2                    "maxTrailingBelowDelta": 2000
+                },
+                {
+;                    "filterType": "PERCENT_PRICE_BY_SIDE",
+,                    "bidMultiplierUp": "5",
+0                    "bidMultiplierDown": "0.2",
+,                    "askMultiplierUp": "5",
+0                    "askMultiplierDown": "0.2",
+&                    "avgPriceMins": 5
+                },
+                {
+.                    "filterType": "NOTIONAL",
+1                    "minNotional": "5.00000000",
+.                    "applyMinToMarket": true,
+7                    "maxNotional": "9000000.00000000",
+/                    "applyMaxToMarket": false,
+&                    "avgPriceMins": 5
+                },
+                {
+4                    "filterType": "MAX_NUM_ORDERS",
+(                    "maxNumOrders": 200
+                },
+                {
+9                    "filterType": "MAX_NUM_ALGO_ORDERS",
+*                    "maxNumAlgoOrders": 5
+                }
+            ],
+            "permissions": [
+                
+            ],
+             "permissionSets": [
+                [
+                    "SPOT",
+                    "MARGIN",
+#                    "TRD_GRP_004",
+#                    "TRD_GRP_005",
+#                    "TRD_GRP_006",
+#                    "TRD_GRP_009",
+#                    "TRD_GRP_010",
+#                    "TRD_GRP_011",
+#                    "TRD_GRP_012",
+#                    "TRD_GRP_013",
+#                    "TRD_GRP_014",
+#                    "TRD_GRP_015",
+#                    "TRD_GRP_016",
+#                    "TRD_GRP_017",
+#                    "TRD_GRP_018",
+#                    "TRD_GRP_019",
+#                    "TRD_GRP_020",
+#                    "TRD_GRP_021",
+#                    "TRD_GRP_022",
+#                    "TRD_GRP_023",
+#                    "TRD_GRP_024",
+#                    "TRD_GRP_025",
+#                    "TRD_GRP_026",
+#                    "TRD_GRP_027",
+#                    "TRD_GRP_028",
+#                    "TRD_GRP_029",
+"                    "TRD_GRP_030"
+                ]
+            ],
+>            "defaultSelfTradePreventionMode": "EXPIRE_MAKER",
+1            "allowedSelfTradePreventionModes": [
+                 "EXPIRE_TAKER",
+                 "EXPIRE_MAKER",
+                "EXPIRE_BOTH"
+            ]
+
+        }
+    ]
+}
+–19:14:09.275 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+19:14:09.276 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z19:14:09.396 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x19:14:09.396 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+19:14:09.397 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+19:14:09.397 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p19:14:09.397 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+™19:14:09.397 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/ticker/24hr?symbol=DOGEUSDT HTTP/1.1
+y19:14:09.397 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/ticker/24hr?symbol=DOGEUSDT HTTP/1.1[\r][\n]"
+g19:14:09.398 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T19:14:09.398 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^19:14:09.398 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_19:14:09.398 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w19:14:09.398 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f19:14:09.399 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I19:14:09.399 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+q19:14:09.399 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/ticker/24hr?symbol=DOGEUSDT HTTP/1.1
+_19:14:09.399 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L19:14:09.399 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V19:14:09.399 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W19:14:09.399 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o19:14:09.400 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^19:14:09.400 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X19:14:09.698 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u19:14:09.698 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+\19:14:09.698 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 289[\r][\n]"
+_19:14:09.698 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l19:14:09.698 [Test worker] DEBUG org.apache.http.wire --  << "Date: Fri, 05 Jul 2024 16:14:09 GMT[\r][\n]"
+V19:14:09.698 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: ec082c37-2806-4d2f-a553-30aca8a41063[\r][\n]"
+^19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 22[\r][\n]"
+a19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 22[\r][\n]"
+_19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "content-encoding: gzip[\r][\n]"
+‡19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t19:14:09.699 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+Ž19:14:09.700 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 6b44f0c6fd2f74f313759609f057925c.cloudfront.net (CloudFront)[\r][\n]"
+_19:14:09.701 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+Ž19:14:09.701 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: O9NS5JkndGE0-U4XyHX29PrwNVikbpyYU-Jc5npAjv7SHnQ4Dcwxqw==[\r][\n]"
+I19:14:09.701 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{19:14:09.701 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+T19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 289
+W19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << Date: Fri, 05 Jul 2024 16:14:09 GMT
+N19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: ec082c37-2806-4d2f-a553-30aca8a41063
+V19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 22
+Y19:14:09.701 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 22
+W19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << content-encoding: gzip
+19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+†19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 6b44f0c6fd2f74f313759609f057925c.cloudfront.net (CloudFront)
+W19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+†19:14:09.702 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: O9NS5JkndGE0-U4XyHX29PrwNVikbpyYU-Jc5npAjv7SHnQ4Dcwxqw==
+}19:14:09.703 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+ˆ19:14:09.703 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+È19:14:09.704 [Test worker] DEBUG org.apache.http.wire --  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff]m[0x91][0xc1]N[0xc3]0[0x10]D[0xff]e[0xcf]!Z[0xc7][0xde]u67[0xd4]"[0xc4][0x89]"[\n]"
+p19:14:09.704 [Test worker] DEBUG org.apache.http.wire --  << "[0xf7]45I[0xd4][0xb4].M[0xda][0xaa]B[0xfc];[\n]"
+š19:14:09.704 [Test worker] DEBUG org.apache.http.wire --  << "[0x9][0xc4][0x95][0xea][0xe3][0xbc][0x19][0xef]x[0xfd][0x5][0xed]e[0xbb][0xf2][\r]d0~|x{[0x9d]/![0x82][0xfd][0xa1].[0xdc][0xac][0xca]w[0xa5][0x83][0xc][0xee]0F$E[0x88]x[0xcd][0x16][0xee]P[0xb8]][0xd7][Ll[0x13][0x81][0x8][0xce][0xae].[0xab][0xce][0xad][0xef]O[0xe5][0xa2]7B[0x6][0x18][0xa3][0x88]V[0x6][0xe9]7[0xed]N[0xb3][0xc6][0xb7]n[0xa2][\n]"
+´19:14:09.704 [Test worker] DEBUG org.apache.http.wire --  << "S[0xc1][0xe1][0xee]&o[0xbb][0x10]h[0xcb][0x13]x[0xe9].[0x90][0x81]R1[0x8e][0x7]"X[0xd5][0xeb]k?[0xfd][0xeb][0xa3]][0xb4]Q&[0x8c][0xe4][0xed][0xe6][0xe6][0x88][0xbc][0xdd][0xc][0x11]C[0x96]8L[0xf8][0xbd][0xdb]][0xd7]U[0x3][0xa8][0xea][0xb2][\n]"
+ç19:14:09.704 [Test worker] DEBUG org.apache.http.wire --  << "[0x81][0xa4]u[0xfd]9|[0xbd][0xd2][0xa3]~[0xf2][0xcd]q[0xdb][0xab][0x9][0x13][0xa7]V[0x8c][0x95]p[0xd0][0xe7][0xd1]w[0xee]}[0xf2][0xe8][0x94][0xc9]0[0xc6][0xa4][0x98][0x93][0xa9][0xcb][0xb2][0xee][0xb9][0xb2][0x9]*[0x14]6b[0xad][0x89][0xa0][0xe8][0x97][0x1a][0x10]a[0x1c][0xc9]G}h[0xbb][0xa7]5d[0xac][0x89]D[0x90]i[0xd8][0xe7] [0xb1]af[0x9d]DP[0xf8]c[0xff][0x95])[[0xe2][0xf4][0xfb][0x7]j[0xfe]_[0xb7][0x18][0x2][0x0][0x0]"
+ 19:14:09.704 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+°19:14:09.708 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@16df0ebd
+†19:14:09.709 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 289
+Connection: keep-alive
+%Date: Fri, 05 Jul 2024 16:14:09 GMT
+Server: nginx
+2x-mbx-uuid: ec082c37-2806-4d2f-a553-30aca8a41063
+x-mbx-used-weight: 22
+x-mbx-used-weight-1m: 22
+content-encoding: gzip
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 6b44f0c6fd2f74f313759609f057925c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: O9NS5JkndGE0-U4XyHX29PrwNVikbpyYU-Jc5npAjv7SHnQ4Dcwxqw==
+
+{
+    "symbol": "DOGEUSDT",
+"    "priceChange": "-0.00515000",
+$    "priceChangePercent": "-4.729",
+&    "weightedAvgPrice": "0.09931405",
+$    "prevClosePrice": "0.10890000",
+    "lastPrice": "0.10376000",
+    "lastQty": "11.00000000",
+    "bidPrice": "0.10375000",
+!    "bidQty": "193414.00000000",
+    "askPrice": "0.10376000",
+     "askQty": "45756.00000000",
+    "openPrice": "0.10891000",
+    "highPrice": "0.10986000",
+    "lowPrice": "0.09136000",
+%    "volume": "2656879479.00000000",
+)    "quoteVolume": "263865460.51662000",
+    "openTime": 1720109649774,
+     "closeTime": 1720196049774,
+    "firstId": 635599065,
+    "lastId": 636466632,
+    "count": 867568
+}
+–19:14:09.794 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+19:14:09.795 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z19:14:09.908 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x19:14:09.909 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+19:14:09.909 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+19:14:09.909 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p19:14:09.909 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+™19:14:09.909 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1
+y19:14:09.910 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1[\r][\n]"
+g19:14:09.910 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T19:14:09.910 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^19:14:09.910 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_19:14:09.910 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w19:14:09.910 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f19:14:09.911 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I19:14:09.911 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+q19:14:09.911 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/ticker/price?symbol=ETHUSDT HTTP/1.1
+_19:14:09.911 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L19:14:09.911 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V19:14:09.911 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W19:14:09.912 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o19:14:09.912 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^19:14:09.912 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X19:14:10.194 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u19:14:10.195 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+[19:14:10.195 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 44[\r][\n]"
+_19:14:10.195 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l19:14:10.195 [Test worker] DEBUG org.apache.http.wire --  << "Date: Fri, 05 Jul 2024 16:14:10 GMT[\r][\n]"
+V19:14:10.195 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y19:14:10.196 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: 6e23d1b0-afa1-4c21-8e9a-8da29744520b[\r][\n]"
+^19:14:10.196 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 24[\r][\n]"
+a19:14:10.196 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 24[\r][\n]"
+‡19:14:10.196 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d19:14:10.196 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h19:14:10.196 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y19:14:10.197 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f19:14:10.198 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+Ž19:14:10.198 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 95ad0c949c0fe7e97075c6690b8574aa.cloudfront.net (CloudFront)[\r][\n]"
+_19:14:10.198 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+Ž19:14:10.198 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: z37oSXJG05hNS2jxhZME43NbYFyNY0cDwTDGFnckMb6Nwtn0jID9Fg==[\r][\n]"
+I19:14:10.198 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{19:14:10.199 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+S19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 44
+W19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << Date: Fri, 05 Jul 2024 16:14:10 GMT
+N19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: 6e23d1b0-afa1-4c21-8e9a-8da29744520b
+V19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 24
+Y19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 24
+19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`19:14:10.199 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+†19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 95ad0c949c0fe7e97075c6690b8574aa.cloudfront.net (CloudFront)
+W19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+†19:14:10.200 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: z37oSXJG05hNS2jxhZME43NbYFyNY0cDwTDGFnckMb6Nwtn0jID9Fg==
+}19:14:10.201 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+ˆ19:14:10.201 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+ 19:14:10.201 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+m19:14:10.206 [Test worker] DEBUG org.apache.http.wire --  << "{"symbol":"ETHUSDT","price":"2982.80000000"}"
+°19:14:10.206 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@207358ad
+†19:14:10.206 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 44
+Connection: keep-alive
+%Date: Fri, 05 Jul 2024 16:14:10 GMT
+Server: nginx
+2x-mbx-uuid: 6e23d1b0-afa1-4c21-8e9a-8da29744520b
+x-mbx-used-weight: 24
+x-mbx-used-weight-1m: 24
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 95ad0c949c0fe7e97075c6690b8574aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: z37oSXJG05hNS2jxhZME43NbYFyNY0cDwTDGFnckMb6Nwtn0jID9Fg==
+
+{
+    "symbol": "ETHUSDT",
+    "price": "2982.80000000"
+}
+'{symbol=ETHUSDT, price=2982.80000000}
+–19:14:10.354 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://api.binance.com:443
+19:14:10.355 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to api.binance.com:443
+z19:14:10.456 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+x19:14:10.456 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+19:14:10.456 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+19:14:10.456 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+p19:14:10.456 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+§19:14:10.456 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /api/v3/klines?symbol=BTCUSDT&limit=5&interval=1h HTTP/1.1
+‡19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "GET /api/v3/klines?symbol=BTCUSDT&limit=5&interval=1h HTTP/1.1[\r][\n]"
+g19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+T19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+^19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "Host: api.binance.com[\r][\n]"
+_19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+w19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.14 (Java/17)[\r][\n]"
+f19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+I19:14:10.457 [Test worker] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+19:14:10.457 [Test worker] DEBUG org.apache.http.headers -- >> GET /api/v3/klines?symbol=BTCUSDT&limit=5&interval=1h HTTP/1.1
+_19:14:10.458 [Test worker] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+L19:14:10.458 [Test worker] DEBUG org.apache.http.headers -- >> Accept: */*
+V19:14:10.458 [Test worker] DEBUG org.apache.http.headers -- >> Host: api.binance.com
+W19:14:10.458 [Test worker] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+o19:14:10.458 [Test worker] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.14 (Java/17)
+^19:14:10.459 [Test worker] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+X19:14:10.744 [Test worker] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+u19:14:10.744 [Test worker] DEBUG org.apache.http.wire --  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+\19:14:10.744 [Test worker] DEBUG org.apache.http.wire --  << "Content-Length: 360[\r][\n]"
+_19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+l19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "Date: Fri, 05 Jul 2024 16:14:10 GMT[\r][\n]"
+V19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "Server: nginx[\r][\n]"
+y19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-uuid: 86a3984e-d0b0-44bf-96a6-ea14a7767246[\r][\n]"
+^19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight: 26[\r][\n]"
+a19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "x-mbx-used-weight-1m: 26[\r][\n]"
+_19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "content-encoding: gzip[\r][\n]"
+‡19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "Strict-Transport-Security: max-age=31536000; includeSubdomains[\r][\n]"
+d19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+h19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "X-Xss-Protection: 1; mode=block[\r][\n]"
+h19:14:10.745 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Type-Options: nosniff[\r][\n]"
+t19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Content-Security-Policy: default-src 'self'[\r][\n]"
+v19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "X-Content-Security-Policy: default-src 'self'[\r][\n]"
+i19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "X-WebKit-CSP: default-src 'self'[\r][\n]"
+{19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Cache-Control: no-cache, no-store, must-revalidate[\r][\n]"
+Y19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Pragma: no-cache[\r][\n]"
+S19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Expires: 0[\r][\n]"
+g19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+y19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, HEAD, OPTIONS[\r][\n]"
+f19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "X-Cache: Miss from cloudfront[\r][\n]"
+Ž19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "Via: 1.1 dc19f9aa143f2b0385b8365f1f0463ee.cloudfront.net (CloudFront)[\r][\n]"
+_19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Pop: HEL51-P1[\r][\n]"
+Ž19:14:10.746 [Test worker] DEBUG org.apache.http.wire --  << "X-Amz-Cf-Id: Y10Tifj_-9Y5PfHGhI9UWpXAW650_fYJh9THPIvRbw-Eh3IZiFMXng==[\r][\n]"
+I19:14:10.747 [Test worker] DEBUG org.apache.http.wire --  << "[\r][\n]"
+{19:14:10.747 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+P19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+m19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Content-Type: application/json;charset=UTF-8
+T19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Content-Length: 360
+W19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Connection: keep-alive
+d19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Date: Fri, 05 Jul 2024 16:14:10 GMT
+N19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Server: nginx
+q19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-uuid: 86a3984e-d0b0-44bf-96a6-ea14a7767246
+V19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight: 26
+Y19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << x-mbx-used-weight-1m: 26
+W19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << content-encoding: gzip
+19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Strict-Transport-Security: max-age=31536000; includeSubdomains
+\19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << X-Frame-Options: SAMEORIGIN
+`19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << X-Xss-Protection: 1; mode=block
+`19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Type-Options: nosniff
+l19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << Content-Security-Policy: default-src 'self'
+n19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << X-Content-Security-Policy: default-src 'self'
+a19:14:10.747 [Test worker] DEBUG org.apache.http.headers -- << X-WebKit-CSP: default-src 'self'
+s19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << Cache-Control: no-cache, no-store, must-revalidate
+Q19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << Pragma: no-cache
+K19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << Expires: 0
+_19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+q19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+^19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << X-Cache: Miss from cloudfront
+†19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << Via: 1.1 dc19f9aa143f2b0385b8365f1f0463ee.cloudfront.net (CloudFront)
+W19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Pop: HEL51-P1
+†19:14:10.748 [Test worker] DEBUG org.apache.http.headers -- << X-Amz-Cf-Id: Y10Tifj_-9Y5PfHGhI9UWpXAW650_fYJh9THPIvRbw-Eh3IZiFMXng==
+}19:14:10.748 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+ˆ19:14:10.750 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json;charset=UTF-8
+˜19:14:10.750 [Test worker] DEBUG org.apache.http.wire --  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff]][0x92]In[0xc5]0[0xc]C[0xef][0xe2][0xb5]!h[0xa0][0xa6][0xb3]|[0xf4][0xfe][0xd7]([0xec][0x9f][0xa4]N[0xbd]3[0xc1][0xc8]O[0xc]?[0x1f]Ie).^g[0xe]wT[0x90][0xcb][0xbe][0xf2]XB;[0x13][0xf3][0x9f][0x80][0xae][0xa4][0xee][0xc3][0xc1][0xae]T[0xc7]'bN[0xa9][0x85][0xd8][0xf7][0xef][0xb][0xb0]^g[0xe]-X[0xa1]C[0xc8][0x82]+[0xb3]xL[0xe5]P[0xb5]9[0xd4]<[0xc9][0xd2]a[0xdf]Ib[0xec]^[0xc9] [0x8]#[0xcb][0x96][0xc8][0xe3]g^[0xd8][0xc0][0x83][0xbd][0x19][0xe]J[0xaf][0x2][0xc5]A[0x89][0xd2]"[0xd7][0xd3][0xa1]}[0xee]aH[0xa7][0xf5][0xb0][0x1c][0xd8][0xd9][0x17][0xb6][0xb4]fW[0xc0]I[0xab]E[0xb8][0x97][0xc5][0xb9]PsH[0x84][0x13]\[0xd4][0xbf][0x93]Z[0xd7][0xb2][0x0][0xa5]H[0xf4][0xb6][0x9e][0xd4][0x17][0xe6]F[0xb0]w[0xb6]^[0x1d]d'[0xa4][0xfd]K[0xdf][0xd3][0x8d][0xba][0x1e]A+[0x8d][0xca][0xba][0x8f][0xb0][[0xfc][0xa6][0xf6].[0x89][0x10]%N[0xed][0xb6][0x15][0xb6][0x88][0xb5][0xc5][0x1c][0x2]QJ[0xb4]\[0xd4]Y[0xee][0xc6]Z[0x4][0x96][0xe0][0xf6]7uK<[0xd4][0x1b][0xe1][0x88]6"[0x8b][0xe4]lD[0x84]Q[0xbd][0x1c][0xa1][0xaf]5D[0x9c][0x9c]{O[0xb9][0xa9]][0x9e][0x8a][0x94]j[0x86][0x15][0x99][0xa9][0xa8]cWD[0xd3]d[0xe][\r]4E[0x6][0xdf][0x15]Ak[0x4]:[0xa8][0x4][0xae][0xbb]N'[0xf6][0xf5][0xc7]o[0x86][0x17]v[0xe6];[0xdb][0xb0]Tr;[0x4][0x84]R[0xc6]#[0x14][0x84][0xcc][0xb8][0x8f][0x86][0xf4]U[0x91]9[0x90][0xde][0xca][0xad][0xa4][0x80]p[0x6][0x8f][0xe9][0xda][0xec][0xab]YFp[0xd3][0xbc][0x90][0x1b]f[0x10]&CJ<A[0xff][0xfc][0x2]{[0xd6][0xdc][0x11][0x8d][0x3][0x0][0x0]"
+ 19:14:10.750 [Test worker] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+°19:14:10.752 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3ce067bd
+†19:14:10.753 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Connection can be kept alive indefinitely
+HTTP/1.1 200 OK
+.Content-Type: application/json;charset=UTF-8
+Content-Length: 360
+Connection: keep-alive
+%Date: Fri, 05 Jul 2024 16:14:10 GMT
+Server: nginx
+2x-mbx-uuid: 86a3984e-d0b0-44bf-96a6-ea14a7767246
+x-mbx-used-weight: 26
+x-mbx-used-weight-1m: 26
+content-encoding: gzip
+@Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+!X-Xss-Protection: 1; mode=block
+!X-Content-Type-Options: nosniff
+-Content-Security-Policy: default-src 'self'
+/X-Content-Security-Policy: default-src 'self'
+"X-WebKit-CSP: default-src 'self'
+4Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+ Access-Control-Allow-Origin: *
+2Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+X-Cache: Miss from cloudfront
+GVia: 1.1 dc19f9aa143f2b0385b8365f1f0463ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HEL51-P1
+GX-Amz-Cf-Id: Y10Tifj_-9Y5PfHGhI9UWpXAW650_fYJh9THPIvRbw-Eh3IZiFMXng==
+
+[
+    [
+        1720180800000,
+        "55486.51000000",
+        "55950.00000000",
+        "54987.99000000",
+        "55052.81000000",
+        "5135.72846000",
+        1720184399999,
+        "284384961.36087780",
+        206223,
+        "2357.37543000",
+        "130558704.41047830",
+        "0"
+    ],
+    [
+        1720184400000,
+        "55052.80000000",
+        "55884.69000000",
+        "54828.52000000",
+        "55829.99000000",
+        "3475.30001000",
+        1720187999999,
+        "192798645.28911090",
+        150848,
+        "1665.45125000",
+        "92399944.71169090",
+        "0"
+    ],
+    [
+        1720188000000,
+        "55830.00000000",
+        "55896.32000000",
+        "55350.00000000",
+        "55753.98000000",
+        "2873.83996000",
+        1720191599999,
+        "159816612.07299380",
+        113936,
+        "1412.74915000",
+        "78553028.40160950",
+        "0"
+    ],
+    [
+        1720191600000,
+        "55753.99000000",
+        "56678.19000000",
+        "55663.89000000",
+        "56662.00000000",
+        "5115.50999000",
+        1720195199999,
+        "288227638.33212540",
+        202731,
+        "2649.67603000",
+        "149266496.81452780",
+        "0"
+    ],
+    [
+        1720195200000,
+        "56662.99000000",
+        "56770.00000000",
+        "56372.53000000",
+        "56462.76000000",
+        "841.33091000",
+        1720198799999,
+        "47592092.24410760",
+        52905,
+        "343.45327000",
+        "19433410.34716950",
+        "0"
+    ]
+]
+Ó[Ð¡Ð²ÐµÑ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 1, ÐœÐ°ÐºÑ. Ñ†ÐµÐ½Ð° 55950.00000000, ÐœÐ¸Ð½. Ñ†ÐµÐ½Ð° 54987.99000000, Ð¡Ð²ÐµÑ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 2, ÐœÐ°ÐºÑ. Ñ†ÐµÐ½Ð° 55884.69000000, ÐœÐ¸Ð½. Ñ†ÐµÐ½Ð° 54828.52000000, Ð¡Ð²ÐµÑ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 3, ÐœÐ°ÐºÑ. Ñ†ÐµÐ½Ð° 55896.32000000, ÐœÐ¸Ð½. Ñ†ÐµÐ½Ð° 55350.00000000, Ð¡Ð²ÐµÑ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 4, ÐœÐ°ÐºÑ. Ñ†ÐµÐ½Ð° 56678.19000000, ÐœÐ¸Ð½. Ñ†ÐµÐ½Ð° 55663.89000000, Ð¡Ð²ÐµÑ‡Ð° Ð½Ð¾Ð¼ÐµÑ€ 5, ÐœÐ°ÐºÑ. Ñ†ÐµÐ½Ð° 56770.00000000, ÐœÐ¸Ð½. Ñ†ÐµÐ½Ð° 56372.53000000]

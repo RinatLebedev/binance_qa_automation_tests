@@ -1,0 +1,49 @@
+Started by user [8mha:////4K5pVvMcFx99iBXpbxWXc60cqhNQJC9JxyYVmNjmdHMCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/docker-example
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/RinatLebedev/binance_qa_automation_tests.git
+ > git init /var/jenkins_home/workspace/docker-example # timeout=10
+Fetching upstream changes from https://github.com/RinatLebedev/binance_qa_automation_tests.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/RinatLebedev/binance_qa_automation_tests.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/RinatLebedev/binance_qa_automation_tests.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/compose^{commit} # timeout=10
+Checking out Revision c95a61dee90c2c2aa7f7f68f1b5d2f0f9b191c92 (refs/remotes/origin/compose)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c95a61dee90c2c2aa7f7f68f1b5d2f0f9b191c92 # timeout=10
+Commit message: "create docker compose branch"
+First time build. Skipping changelog.
+[docker-example] $ /bin/sh -xe /tmp/jenkins12007427715606496731.sh
++ ./dradlew clean test uiTests
+/tmp/jenkins12007427715606496731.sh: 2: ./dradlew: not found
+Build step 'Execute shell' marked build as failure
+Unpacking https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/2.25.0/allure-commandline-2.25.0.zip to /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure_jenkins on Jenkins
+[docker-example] $ /var/jenkins_home/tools/ru.yandex.qatools.allure.jenkins.tools.AllureCommandlineInstallation/allure_jenkins/bin/allure generate -c -o /var/jenkins_home/workspace/docker-example/allure-report
+ERROR: Step ‘Allure Report’ aborted due to exception: 
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at java.base/java.lang.Object.wait(Unknown Source)
+	at java.base/java.lang.ProcessImpl.waitFor(Unknown Source)
+	at hudson.Proc$LocalProc.join(Proc.java:328)
+	at hudson.Launcher$ProcStarter.join(Launcher.java:531)
+	at ru.yandex.qatools.allure.jenkins.ReportBuilder.build(ReportBuilder.java:75)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.generateReport(AllureReportPublisher.java:357)
+	at ru.yandex.qatools.allure.jenkins.AllureReportPublisher.perform(AllureReportPublisher.java:269)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:80)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE
