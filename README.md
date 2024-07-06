@@ -86,7 +86,7 @@
 <img width="6%" title="Gradle" src="images/logo/Gradle.svg">
 <img width="6%" title="Allure" src="images/logo/Allure.svg">
 <img width="6%" title="Docker" src="images/logo/docker-logo.svg">
-<img width="6%" title="BinanceApi" src="images/logo/Binance.svg">
+<img width="9%" title="BinanceApi" src="images/logo/Binance.svg">
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 
